@@ -4,11 +4,24 @@ Thirteen portfolio projects across **Excel → Power BI → SQL → Python → S
 
 - `data/`: the dataset, already downloaded (no Kaggle login needed)
 - `DATA_PROFILE.md`: **every column of every file** with its type, missing %, unique count and min/max or top values
-- `README.md`: what the data check found (the traps), then a **step-by-step approach**, KPIs and deliverables
+- `README.md`: a complete project guide in 8 sections:
+
+| # | Section | What it contains |
+|---|---|---|
+| 1 | **Project description** | Business context, objective, stakeholders, key questions |
+| 2 | **Dataset** | Files, grain, columns |
+| 3 | **Data cleaning** | Every issue found in the real data and the exact fix (Excel / Power Query / DAX / SQL / pandas) |
+| 4 | **EDA** | Univariate → bivariate → multivariate → time analysis, plus the dashboard layout |
+| 5 | **Testing** | (A) data-validation tests with pass conditions, (B) hypothesis tests with H₀, method and the **actual result** |
+| 6 | **Observations** | 7–9 findings with real numbers computed from this data |
+| 7 | **Recommendations** | Actions backed by the observations |
+| 8 | **Deliverables** | What to submit |
+
+Every number in the Observations and Testing sections was computed from the files in this repo. Reproduce them with `python tools/reference_findings.py` (instructor answer key; students should derive them on their own first).
 
 | # | Project | Module | Dataset | Size | Data notes |
 |---|---|---|---|---|---|
-| 01 | [National Air Quality](01_National_Air_Quality/) | Excel | Air Quality in India 2015–20 (CPCB/Kaggle) | 29.5k city-days (+ hourly) | 16–61% missing per pollutant; AQI outliers > 500 |
+| 01 | [National Air Quality](01_National_Air_Quality/) | Excel | Air Quality in India 2015–20 (CPCB/Kaggle) | 29.5k city-days (+ hourly) | 16–61% missing per pollutant; 543 AQI > 500, mostly an Ahmedabad CO sensor error |
 | 02 | [US Healthcare](02_US_Healthcare/) | Excel | Healthcare Dataset (Kaggle) | 55.5k admissions | **Synthetic**; 534 duplicates; 108 negative bills |
 | 03 | [India CPI Inflation](03_India_CPI_Inflation/) | Excel | MoSPI CPI via IndiaInflation.com | 2013–Aug 2026 national; 2025+ state/category/item | **Base 2024 = 100**; first line is a comment |
 | 04 | [IT Department Dashboard](04_IT_Department_Dashboard/) | Power BI | Microsoft IT Spend sample (obviEnce) | 166k fact rows, 7 dims | Exported from the hidden Power Pivot model; filter by Scenario |

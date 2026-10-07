@@ -1,9 +1,25 @@
-# 06 · Retail Store Analytics (SQL)
+# 06 · Retail Store Analytics
 
-**Module:** SQL  **Dataset:** Retail Shop Case Study: the classic 3-table set listed on [Kaggle (amark720)](https://www.kaggle.com/datasets/amark720/retail-shop-case-study-dataset). The Kaggle page now returns *permission denied*, so these files come from a public mirror ([mrinalcs/sql-retail-data-analysis](https://github.com/mrinalcs/sql-retail-data-analysis)) with the same columns.
-**Column profile:** [DATA_PROFILE.md](DATA_PROFILE.md)
+**Module:** SQL  **Dataset:** Retail Shop Case Study, the classic 3-table set ([Kaggle amark720](https://www.kaggle.com/datasets/amark720/retail-shop-case-study-dataset); that page now returns *permission denied*, so the files come from the public mirror [mrinalcs/sql-retail-data-analysis](https://github.com/mrinalcs/sql-retail-data-analysis))  **Column profile:** [DATA_PROFILE.md](DATA_PROFILE.md)
 
-## Files in `data/`
+---
+
+## 1. Project description
+
+**Business context.** A multi-channel retailer (Flagship stores, MBR outlets, TeleShop, e-Shop) sells clothing, footwear, electronics, books, bags and home goods. Management wants SQL-based answers on who buys, what sells, which channel performs best and how much is lost to returns, to plan inventory and marketing.
+
+**Objective.** Load 3 related tables into a relational database, clean them in SQL, and answer ~20 business questions with progressively advanced SQL (joins, CTEs, window functions, RFM).
+
+**Stakeholders.** Retail head, category managers, channel managers, marketing.
+
+**Key questions**
+1. What are gross sales, returns and net revenue? How is revenue trending by year?
+2. Which channel, category and subcategory earn the most?
+3. Who are the customers (gender, age, city), and who are the most valuable?
+4. Where are return rates highest?
+5. Which customer segments (RFM) should marketing target?
+
+## 2. Dataset
 
 | Table | Rows | Columns |
 |---|---|---|
@@ -11,53 +27,127 @@
 | `Transactions.csv` | 23,053 | `transaction_id, cust_id, tran_date, prod_subcat_code, prod_cat_code, Qty, Rate, Tax, total_amt, Store_type` |
 | `prod_cat_info.csv` | 23 | `prod_cat_code, prod_cat, prod_sub_cat_code, prod_subcat` |
 
-**Relationships:** `Transactions.cust_id → Customer.customer_Id`; `Transactions.(prod_cat_code, prod_subcat_code) → prod_cat_info.(prod_cat_code, prod_sub_cat_code)`.
+**Joins:** `Transactions.cust_id → Customer.customer_Id`; `Transactions.(prod_cat_code, prod_subcat_code) → prod_cat_info.(prod_cat_code, prod_sub_cat_code)`. **Both columns are needed.**
 
-## What the data check found (these are the traps)
+---
 
-1. **Mixed date formats in `tran_date`:** 13,929 rows look like `28-02-2014` and 9,124 like `12/2/2014`. Both are day-first. Normalise them to DATE before any time analysis. The range is 25 Jan 2011 – 28 Feb 2014.
-2. **Returns are negative rows.** 2,177 rows have `Qty < 0` with negative `Rate` and `total_amt`. A return reuses the original `transaction_id`, which is why only 20,878 of the 23,053 ids are unique. `transaction_id` is **not** a primary key.
-3. **The product join needs two columns.** Subcategory codes repeat across categories (e.g. subcat 1 = *Women* under Clothing but *Mens* under Footwear and Bags). Join on both codes, or you'll multiply rows.
-4. 13 exact duplicate rows in Transactions. Tax is 10.5% of `Qty × Rate`.
+## 3. Data cleaning (SQL, PostgreSQL syntax)
 
-## Step-by-step approach
+```sql
+-- 1. Stage raw data as TEXT so nothing fails on load
+CREATE TABLE transactions_stg (transaction_id TEXT, cust_id TEXT, tran_date TEXT, prod_subcat_code TEXT,
+  prod_cat_code TEXT, qty TEXT, rate TEXT, tax TEXT, total_amt TEXT, store_type TEXT);
+\copy transactions_stg FROM 'Transactions.csv' CSV HEADER
 
-1. **Create the schema** (PostgreSQL or MySQL): load the CSVs into staging tables with `tran_date`/`DOB` as TEXT, then cast:
-   ```sql
-   -- PostgreSQL
-   UPDATE transactions_stg SET tran_date = REPLACE(tran_date, '/', '-');
-   CREATE TABLE transactions AS
-   SELECT *, TO_DATE(tran_date, 'DD-MM-YYYY') AS tran_dt FROM transactions_stg;
-   ```
-   Add PK/FK constraints and an index on `cust_id`.
-2. **Data-prep questions** (the classic case study):
-   - Row count of each table; number of return transactions
-   - Convert dates; find the time range covered (days, months, years)
-   - Which category does subcategory "DIY" belong to?
-3. **Analysis questions** (write one query each):
-   - Most frequently used channel (`Store_type`)
-   - Male vs female customer count
-   - City with the most customers
-   - Number of subcategories under Books
-   - Maximum quantity ever ordered
-   - Net revenue for Electronics + Books
-   - Customers with more than 10 transactions (excluding returns)
-   - Combined revenue from Electronics and Clothing at Flagship stores
-   - Revenue from male customers in Electronics, by subcategory
-   - % of sales and % of returns by subcategory (top 5 by sales)
-   - Net revenue from customers aged 25–35 in the last 30 days of data, using `MAX(tran_dt)` as the reference date
-   - Category with the highest value of returns in the last 3 months
-   - Store type with the highest sales value and quantity
-   - Categories whose average revenue is above the overall average
-   - Average and total revenue by subcategory for the top 5 categories by quantity
-4. **Advanced SQL to show off:**
-   - `RANK()` customers by net spend within each city
-   - Month-on-month revenue growth with `LAG()`
-   - RFM segmentation: `NTILE(5)` on Recency, Frequency and Monetary
-   - Return rate by category with `SUM(CASE WHEN Qty<0 …) / SUM(CASE WHEN Qty>0 …)`
-   - A cohort table of first-purchase month × active months
-5. **Write up:** for each query, give the business question, the SQL, the result and a one-line insight.
+-- 2. Mixed date formats: 13,929 rows 'dd-mm-yyyy' + 9,124 rows 'd/m/yyyy' (both day-first)
+-- 3. Cast types into the clean table
+CREATE TABLE transactions AS
+SELECT DISTINCT                                    -- 4. drops the 13 exact duplicate rows
+       transaction_id::BIGINT, cust_id::INT,
+       TO_DATE(REPLACE(tran_date, '/', '-'), 'DD-MM-YYYY') AS tran_date,
+       prod_subcat_code::INT, prod_cat_code::INT, qty::INT, rate::NUMERIC, tax::NUMERIC,
+       total_amt::NUMERIC, store_type,
+       (qty::INT < 0) AS is_return                  -- 5. returns are negative rows
+FROM transactions_stg;
 
-## Deliverables
+-- 6. Customer: convert DOB, keep NULL gender/city (only 2 each), add age at the data's end date
+CREATE TABLE customer AS
+SELECT customer_id::INT, TO_DATE(dob,'DD-MM-YYYY') AS dob, NULLIF(gender,'') AS gender, NULLIF(city_code,'')::INT AS city_code
+FROM customer_stg;
 
-`schema.sql`, `analysis.sql` (numbered questions), `README` with results and insights. Optional: a Power BI or Excel chart from the query outputs.
+-- 7. Keys & indexes (transaction_id is NOT unique: a return reuses the sale's id)
+ALTER TABLE customer ADD PRIMARY KEY (customer_id);
+ALTER TABLE prod_cat_info ADD PRIMARY KEY (prod_cat_code, prod_sub_cat_code);
+ALTER TABLE transactions ADD FOREIGN KEY (cust_id) REFERENCES customer(customer_id);
+CREATE INDEX ON transactions (cust_id);
+```
+
+| # | Cleaning check | Finding |
+|---|---|---|
+| 1 | Date formats | 2 formats, both day-first. Range **25 Jan 2011 – 28 Feb 2014** (2014 has only 2 months) |
+| 2 | Duplicates | 13 exact duplicate rows removed |
+| 3 | Returns | 2,177 negative-qty rows. 2,175 `transaction_id`s appear twice (sale + return) |
+| 4 | Tax rule | `tax = 10.5% × qty × rate` holds for every row, a nice integrity check |
+| 5 | Nulls | Gender 2, city_code 2. Keep them; label as 'Unknown' in reports |
+| 6 | Join check | The two-column join returns exactly 23,053 rows (a one-column join multiplies rows) |
+
+---
+
+## 4. Analysis (EDA with SQL)
+
+**Data-prep questions**
+1. Rows in each table; number of return transactions
+2. Time range covered in days, months and years
+3. Which category does "DIY" belong to?
+
+**Business questions**
+4. Most used channel (`Store_type`)
+5. Male vs female customer count; city with the most customers
+6. Subcategories under Books; maximum quantity ever ordered
+7. Net revenue from Electronics + Books
+8. Customers with more than 10 (non-return) transactions
+9. Electronics + Clothing revenue at Flagship stores
+10. Revenue from male customers in Electronics, by subcategory
+11. % of sales and % of returns by subcategory, top 5 by sales
+12. Net revenue from customers aged 25–35 in the last 30 days of data (`MAX(tran_date)` as "today")
+13. Category with the highest return value in the last 3 months
+14. Store type with the highest sales value and quantity
+15. Categories with average revenue above the overall average
+16. Average and total revenue by subcategory for the top 5 categories by quantity
+
+**Advanced SQL**
+- `RANK() OVER (PARTITION BY city_code ORDER BY net_spend DESC)`: top customers per city
+- `LAG()`: month-on-month revenue growth
+- **RFM:** `NTILE(5)` on recency, frequency and monetary → segments (Champions, Loyal, At-risk, Lost)
+- Return rate by category: `SUM(CASE WHEN qty<0 THEN 1 END)::numeric / SUM(CASE WHEN qty>0 THEN 1 END)`
+- Cohort: first-purchase month × months active
+
+---
+
+## 5. Testing
+
+**A. SQL / data tests** (write each one as a query that must return 0 rows or the expected number)
+
+| Test | Query idea | Expected |
+|---|---|---|
+| Row count | `SELECT COUNT(*) FROM transactions` | 23,040 after dedup |
+| Orphan customers | `LEFT JOIN customer … WHERE c.customer_id IS NULL` | 0 |
+| Orphan products | two-column `LEFT JOIN prod_cat_info … IS NULL` | 0 (and the join keeps 23,053 rows; a one-column join explodes to 57,166) |
+| Tax integrity | `WHERE ABS(tax - 0.105*qty*rate) > 0.01` | 0 rows |
+| Amount integrity | `WHERE ABS(ABS(total_amt) - (ABS(qty*rate) + tax)) > 0.01` (returns store total as −(qty×rate + tax)) | 0 rows |
+| Every return has a sale | return ids without a positive row with the same id | **2** orphan returns. Report them |
+| Net = gross + returns | reconcile the three sums | Equal |
+
+**B. Statistical tests** (export query results to Excel/Python)
+
+| Hypothesis | Result |
+|---|---|
+| H₀: category mix is independent of store type (chi-square on the Store × Category counts) | p = 0.90. **Fail to reject:** every channel sells the same mix |
+| H₀: average purchase value of male = female customers (Welch t-test) | ₹2,604 vs ₹2,613 per transaction, p = 0.75. **Fail to reject:** spend per purchase is the same |
+
+---
+
+## 6. Observations (from this data)
+
+1. **Revenue:** gross sales **₹54.5 M**, returns **−₹5.9 M (10.8% of gross)**, **net ₹48.6 M**.
+2. **Trend:** net revenue was flat at ₹14.7 M (2011), ₹15.9 M (2012) and ₹15.7 M (2013). No growth. 2014 has only Jan–Feb.
+3. **Channel:** **e-Shop is the biggest channel by far**: 9,311 transactions and ₹19.8 M, about 2× each of Flagship (₹9.7 M), MBR (₹9.7 M) and TeleShop (₹9.4 M).
+4. **Categories:** **Books lead** (₹12.8 M), then Electronics ₹10.7 M and Home & kitchen ₹8.4 M. Bags are last (₹4.1 M).
+5. **Top subcategories:** Electronics–Mobiles (₹2.25 M), Books–Fiction (₹2.23 M), Books–Children (₹2.21 M), Home–Tools and Footwear–Kids (₹2.15 M each).
+6. **Returns** are about 10–11% of sales in every category (Bags 11.7% highest, Electronics 9.2% lowest).
+7. **Customers:** 5,647 customers (2,892 M / 2,753 F) spread evenly across 10 cities (city 3 has the most, 595). They're young: age 21–44 at the end of the data (median 33).
+8. **Low loyalty:** only **6 customers** made more than 10 purchase transactions.
+9. Store type and category are independent (chi-square p = 0.90). Every channel sells the same mix.
+
+## 7. Recommendations
+
+1. **Invest in e-Shop.** It does as much business as the three physical channels together. Prioritise app/web UX, delivery and digital marketing.
+2. **Reduce the 11% return rate,** starting with Bags and Footwear: better size guides, product photos and quality checks. Every 1 pp is about ₹0.5 M.
+3. **Restart growth:** revenue has been flat for 3 years. Run category promotions in Books and Electronics (the top earners) and cross-sell Mobiles accessories.
+4. **Loyalty programme:** very few repeat-heavy customers. Use the RFM segments for targeted offers to "At-risk" and "Loyal" groups.
+5. **Differentiate channels:** since every channel sells the same mix, give Flagship stores an experience role (premium electronics, demos) and keep TeleShop for convenience categories.
+6. **Target the 25–35 age group,** the core of the customer base, in campaigns.
+
+## 8. Deliverables
+
+`01_schema.sql`, `02_clean.sql`, `03_tests.sql`, `04_analysis.sql` (numbered questions with comments), and a README with the results table and insights.
