@@ -1,0 +1,30 @@
+services:
+  app:
+    build:
+      context: ..
+      dockerfile: .devcontainer/Dockerfile
+    volumes:
+      - ..:/workspaces/DataAnalyticsProjrectIdeas:cached
+    command: sleep infinity
+    environment:
+      PGHOST: db
+      PGPORT: "5432"
+      PGUSER: analyst
+      PGPASSWORD: analyst
+      PGDATABASE: analytics
+      DATABASE_URL: postgresql+psycopg://analyst:analyst@db:5432/analytics
+    depends_on:
+      - db
+
+  db:
+    image: postgres:16
+    restart: unless-stopped
+    environment:
+      POSTGRES_USER: analyst
+      POSTGRES_PASSWORD: analyst
+      POSTGRES_DB: analytics
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+
+volumes:
+  pgdata:

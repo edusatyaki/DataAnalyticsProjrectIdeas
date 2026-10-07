@@ -1,0 +1,56 @@
+{
+  "name": "Data Analytics Projects",
+  "dockerComposeFile": "docker-compose.yml",
+  "service": "app",
+  "workspaceFolder": "/workspaces/DataAnalyticsProjrectIdeas",
+  "shutdownAction": "stopCompose",
+
+  "hostRequirements": { "cpus": 4, "memory": "8gb" },
+
+  "forwardPorts": [8501, 8888, "db:5432"],
+  "portsAttributes": {
+    "8501": { "label": "Streamlit", "onAutoForward": "openBrowser" },
+    "8888": { "label": "JupyterLab", "onAutoForward": "openBrowser" },
+    "db:5432": { "label": "PostgreSQL", "onAutoForward": "silent" }
+  },
+
+  "secrets": {
+    "ANTHROPIC_API_KEY": {
+      "description": "Only needed for project 13 (LLM explanations and Q&A).",
+      "documentationUrl": "https://console.anthropic.com/settings/keys"
+    }
+  },
+
+  "postCreateCommand": "bash .devcontainer/post-create.sh",
+
+  "customizations": {
+    "codespaces": {
+      "openFiles": ["README.md"]
+    },
+    "vscode": {
+      "settings": {
+        "python.defaultInterpreterPath": "/usr/local/bin/python",
+        "jupyter.notebookFileRoot": "${fileDirname}",
+        "sqltools.connections": [
+          {
+            "name": "analytics (Postgres)",
+            "driver": "PostgreSQL",
+            "server": "db",
+            "port": 5432,
+            "database": "analytics",
+            "username": "analyst",
+            "password": "analyst"
+          }
+        ]
+      },
+      "extensions": [
+        "ms-python.python",
+        "ms-toolsai.jupyter",
+        "mechatroner.rainbow-csv",
+        "mtxr.sqltools",
+        "mtxr.sqltools-driver-pg",
+        "GrapeCity.gc-excelviewer"
+      ]
+    }
+  }
+}

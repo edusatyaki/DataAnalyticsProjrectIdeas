@@ -22,6 +22,21 @@ Thirteen portfolio projects across **Excel → Power BI → SQL → Python → S
 | 12 | [Superstore Sales](12_Superstore_Sales/) | Stats & EDA | Tableau Sample Superstore | 9,994 order lines | cp1252 encoding; discount kills profit |
 | 13 | [Credit Risk Modelling](13_Credit_Risk_Modelling/) | Generative AI | Credit Risk Dataset (Kaggle) | 32.6k loans | 21.8% default; leakage via grade/rate; ML + LLM layer |
 
+## Run it in the cloud (GitHub Codespaces)
+
+[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/edusatyaki/DataAnalyticsProjrectIdeas?quickstart=1)
+
+Click the badge. Nothing to install on your laptop. The first build takes about 5 minutes; later starts are quick. You get:
+
+- **Python 3.12** with everything in [`requirements.txt`](requirements.txt): pandas, seaborn, plotly, scipy, statsmodels, scikit-learn, xgboost, shap, streamlit, JupyterLab, duckdb, the Anthropic SDK
+- **PostgreSQL 16** for the SQL projects (06–07), already running. Type `psql` in the terminal to connect (database `analytics`, user/password `analyst`). Load CSVs with `\copy`. The SQLTools sidebar is already connected.
+- **Forwarded ports:** Streamlit on 8501, JupyterLab on 8888 (`jupyter lab --ip 0.0.0.0 --no-browser`)
+- **Project 13 (LLM):** add `ANTHROPIC_API_KEY` as a [Codespaces secret](https://github.com/settings/codespaces). The Codespace asks for it when you create it.
+
+Excel and Power BI (01–05) still need the desktop apps. Download the `data/` folder for those, or do the cleaning in pandas first.
+
+Working locally instead: `python -m venv .venv && source .venv/bin/activate && pip install -r requirements.txt`.
+
 ## Suggested order
 
 Do them in module order. Each one reuses skills from the one before:

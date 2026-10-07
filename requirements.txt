@@ -1,0 +1,33 @@
+# Core data work (projects 01-12)
+pandas>=2.2
+numpy>=1.26
+pyarrow>=16
+openpyxl>=3.1
+
+# Charts
+matplotlib>=3.8
+seaborn>=0.13
+plotly>=5.22
+
+# Stats & EDA (10-12)
+scipy>=1.13
+statsmodels>=0.14
+
+# ML + explainability (13)
+scikit-learn>=1.5
+xgboost>=2.0
+shap>=0.45
+
+# Apps and notebooks
+streamlit>=1.36
+jupyterlab>=4.2
+ipykernel>=6.29
+
+# SQL from Python (06-07)
+psycopg[binary]>=3.1
+sqlalchemy>=2.0
+duckdb>=1.0
+
+# LLM layer (13)
+anthropic>=0.40
+python-dotenv>=1.0
