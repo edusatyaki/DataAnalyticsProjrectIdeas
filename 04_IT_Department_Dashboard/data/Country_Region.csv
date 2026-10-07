@@ -1,0 +1,53 @@
+Sales Region,Country/Region,Country/Region ID
+Africa & Asia,China,10.0
+Africa & Asia,Hong Kong SAR,19.0
+Africa & Asia,India,21.0
+Africa & Asia,Israel,23.0
+Africa & Asia,Japan,25.0
+Africa & Asia,Malaysia,26.0
+Africa & Asia,Mena,27.0
+Africa & Asia,Pakistan,31.0
+Africa & Asia,Russia,37.0
+Africa & Asia,Saudi Arabia,38.0
+Africa & Asia,Singapore,39.0
+Africa & Asia,South African Republic,42.0
+Africa & Asia,South Korea,43.0
+Africa & Asia,Taiwan,47.0
+Africa & Asia,Thailand,48.0
+Africa & Asia,Turkey,49.0
+Aus and NZ,New Zeland,2.0
+Canada,Canada,7.0
+Europe,Austria,3.0
+Europe,Belgium,4.0
+Europe,Bosnia,5.0
+Europe,Croatia,12.0
+Europe,Czech Republic,13.0
+Europe,Denmark,14.0
+Europe,Finland,16.0
+Europe,France,17.0
+Europe,Germany,18.0
+Europe,Hungary,20.0
+Europe,Ireland,22.0
+Europe,Italy,24.0
+Europe,Netherlands,29.0
+Europe,Norway,30.0
+Europe,Poland,33.0
+Europe,Portugal,34.0
+Europe,Romania,36.0
+Europe,Slovakia,40.0
+Europe,Slovenia,41.0
+Europe,Spain,44.0
+Europe,Sweden,45.0
+Europe,Switzerland,46.0
+Europe,United Kingdom,51.0
+Latin America,Argentina,1.0
+Latin America,Brazil,6.0
+Latin America,Central America,8.0
+Latin America,Chile,9.0
+Latin America,Colombia,11.0
+Latin America,Ecuador,15.0
+Latin America,Mexico,28.0
+Latin America,Peru,32.0
+Latin America,Venezuela,52.0
+USA,Puerto Rico,35.0
+USA,USA,50.0

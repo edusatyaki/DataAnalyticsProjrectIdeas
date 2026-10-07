@@ -1,0 +1,254 @@
+Cost element name,Cost Element Group,Cost Element Sub Group,Cost Element ID
+3rd Party Marketing Data,Other,Other,182.0
+Advertising,Other,Other,7.0
+Audit Fees,Other,Other,10.0
+Bank Charges,Other,Other,12.0
+Business Gifts,Other,Other,13.0
+Business Gifts (Other),Other,Other,14.0
+Charitable Contributions,Other,Other,21.0
+Conferences,Other,Other,218.0
+Customer Channel,Other,Other,41.0
+Customer Events,Other,Other,40.0
+Customer Meetings,Other,Other,39.0
+Distribution,Other,Other,252.0
+DPE,Other,Other,166.0
+Employee (Other),Other,Other,55.0
+Employee Activities,Other,Other,50.0
+Employee Pharmacy,Other,Other,54.0
+Exhibits,Other,Other,58.0
+Fines,Other,Other,62.0
+Food Charges,Other,Other,15.0
+Food Expense,Other,Other,16.0
+Freight,Other,Other,82.0
+Freight In,Other,Other,68.0
+Fuel Oil,Other,Other,70.0
+Gear,Other,Other,241.0
+Internships,Other,Other,214.0
+Inventory,Other,Other,28.0
+Laundry,Other,Other,88.0
+Leasing,Other,Other,124.0
+Legal Expense,Other,Other,61.0
+License Fees,Other,Other,96.0
+Manufacturing Materials,Other,Other,47.0
+Marketing Campaigns,Other,Other,251.0
+Marketing Research,Other,Other,107.0
+Matching,Other,Other,52.0
+Materials,Other,Other,106.0
+Memberships,Other,Other,115.0
+Messenger Services,Other,Other,117.0
+Misc. Credits - 2,Other,Other,119.0
+Misc. Credits - 3,Other,Other,120.0
+Miscellaneous Credits - 1,Other,Other,122.0
+Miscellaneous Credits - 2,Other,Other,123.0
+National Sales Meeting,Other,Other,129.0
+Office Cleaning,Other,Other,132.0
+Office Rental,Other,Other,134.0
+Other Events,Other,Other,217.0
+Other Expenses,Other,Other,137.0
+Other Miscellaneous,Other,Other,145.0
+Other Miscellaneous - Accrual,Other,Other,140.0
+Other Miscellaneous - Nonordinary,Other,Other,141.0
+Other Miscellaneous - Property Management,Other,Other,142.0
+Other Miscellaneous Expense,Other,Other,143.0
+Parts,Other,Other,180.0
+Penalties,Other,Other,63.0
+Postage,Other,Other,167.0
+Promotion,Other,Other,125.0
+Promotional Literature,Other,Other,178.0
+Retail Estate Gain/Loss,Other,Other,192.0
+Recruiting,Other,Other,9.0
+Recruiting,Other,Other,186.0
+Recurring,Other,Other,83.0
+Registration Management,Other,Other,168.0
+Rent,Other,Other,189.0
+Reporting,Other,Other,85.0
+Safety,Other,Other,195.0
+Salaries Deductions - Other,Other,Other,196.0
+Sales Incentive Program,Other,Other,201.0
+Sales Meeting Expense,Other,Other,202.0
+Sales Meetings,Other,Other,199.0
+Sales Promotion,Other,Other,203.0
+Security,Other,Other,205.0
+Seminars,Other,Other,114.0
+Services,Other,Other,126.0
+Shipments,Other,Other,116.0
+Snacks,Other,Other,208.0
+Speakers Program,Other,Other,211.0
+Subscriptions,Other,Other,44.0
+Subscriptions and Reference Material,Other,Other,213.0
+Support,Other,Other,108.0
+Tips,Other,Other,144.0
+Transportation - Air,Other,Other,229.0
+Transportation - Marketing,Other,Other,232.0
+Transportation - Miscellaneous,Other,Other,230.0
+Transportation - Motor Freight,Other,Other,231.0
+Transportation - Other,Other,Other,233.0
+Utilities,Other,Other,149.0
+Utilities,Other,Other,243.0
+Waste Disposal,Other,Other,34.0
+Auto Insurance,Other,Vehicles,11.0
+Career Development,Other,Training,104.0
+Clerical Materials,Other,Supplies,43.0
+College Relations,Other,Moving,23.0
+Companion Travel,Other,Travel,236.0
+Conference,Other,Travel,109.0
+Conferences,Other,Training,228.0
+Corporate Air Travel,Other,Travel,38.0
+Domestic Travel,Other,Travel,235.0
+Indemnification and Separation Allowance,Other,Severance,78.0
+Indirect Materials,Other,Supplies,79.0
+Individual Performance Recognition,Other,Employee Performance,80.0
+Insurance,Other,Vehicles,89.0
+Interest,Other,Vehicles,92.0
+Internal,Other,Training,86.0
+International Travel,Other,Travel,234.0
+Lease,Other,Vehicles,93.0
+Legal,Other,Legal,22.0
+Legal Services,Other,Legal,95.0
+LOS,Other,Severance,74.0
+M&E-100% Deductible,Other,Travel,110.0
+M&E-3rd Party,Other,Travel,113.0
+M&E-Nondeductible,Other,Travel,111.0
+M&E-Other,Other,Travel,112.0
+Materials,Other,Supplies,216.0
+Moving Expenses - NT,Other,Moving,127.0
+Moving Expenses - Taxable,Other,Moving,128.0
+Off Site Events,Other,Recognition,184.0
+Office Supplies,Other,Supplies,133.0
+On Site Events,Other,Recognition,185.0
+Other Awards,Other,Recognition,183.0
+Other Supplies,Other,Supplies,36.0
+Outside Repairs - Cars,Other,Vehicles,154.0
+Patent & Trademark,Other,Legal,156.0
+Professional Journal,Other,Training,169.0
+Project Expense,Other,Project Expenses,172.0
+Property Taxes,Other,Taxes,179.0
+Relocation Expenses,Other,Moving,188.0
+Salaries Deductions Car,Other,Vehicles,197.0
+Separation Expense,Other,Travel,71.0
+Service Awards,Other,Recognition,206.0
+Settlements,Other,Project Expenses,173.0
+Supplies,Other,Supplies,215.0
+Taxes - General,Other,Taxes,219.0
+Team Performance,Other,Recognition,220.0
+Telecom,Other,Telecomm,37.0
+Telecom Services,Other,Telecomm,221.0
+Telecommunication,Other,Telecomm,222.0
+Telephone,Other,Telecomm,223.0
+Training,Other,Training,227.0
+Training Allowance,Other,Training,48.0
+Training Assistance,Other,Training,49.0
+Training Materials,Other,Training,87.0
+Travel Allowance,Other,Travel,237.0
+Travel Allowance - Cash Adjustment,Other,Travel,238.0
+Travel Expense,Other,Travel,239.0
+Travel Expense-Hotel,Other,Travel,240.0
+Vehicle - Travel,Other,Travel,247.0
+Vehicle Fuel,Other,Vehicles,90.0
+Vehicle Maintenance,Other,Vehicles,91.0
+Vehicle National Tax,Other,Vehicles,248.0
+Vehicle Rent,Other,Vehicles,249.0
+Vehicle Rent - Employees,Other,Vehicles,250.0
+Adjustments,Shared Services,Outbound Allocations,105.0
+Adjustments,Labor,Internal Labor,147.0
+Admin,Labor,Internal Labor,3.0
+Administrative,Shared Services,Inbound Allocations,2.0
+Administrative Fees,Shared Services,Outbound Allocations,6.0
+Administrative Other,Administrative,Administrative,4.0
+Administrative Service,Shared Services,Outbound Allocations,5.0
+Administrative Support,Shared Services,Inbound Allocations,17.0
+Allowances,Labor,Internal Labor,8.0
+Analytical,Shared Services,Inbound Allocations,18.0
+ATL Adjustments,Administrative,Administrative,66.0
+Awards,Labor,Internal Labor,165.0
+Benefits,Labor,Internal Labor,121.0
+Billing,Labor,Internal Labor,77.0
+Bonuses,Labor,Internal Labor,24.0
+Bonuses,Labor,External Labor,31.0
+BTL Adjustments,Shared Services,Inbound Allocations,67.0
+BU Expenses,Shared Services,Inbound Allocations,72.0
+BUE,Shared Services,Inbound Allocations,130.0
+Computer Hardware,Hardware & Software,Hardware,25.0
+Computer Rental,Hardware & Software,Hardware,26.0
+Contingent,Labor,Internal Labor,29.0
+Contract Labor Charges for Software Development,CAPEX,CAPEX,59.0
+Contractors,Labor,External Labor,30.0
+Control,Hardware & Software,Hardware Maintenance,99.0
+Direct Labor,Shared Services,Outbound Allocations,46.0
+Employee Benefits,Labor,Internal Labor,51.0
+Employee Transport,Labor,Internal Labor,56.0
+Employee Wellness,Labor,Internal Labor,53.0
+Equity,Labor,Internal Labor,57.0
+Field Engineering,Hardware & Software,Hardware Maintenance,60.0
+Fixed Assets,Depr & Amort,Depreciation,64.0
+Fixed Charges,Shared Services,Outbound Allocations,65.0
+FP&A,Shared Services,Inbound Allocations,1.0
+Fringe Benefits Tax,Labor,Internal Labor,69.0
+G&A,Shared Services,Inbound Allocations,84.0
+Governance,Labor,External Labor,33.0
+Hazard Pay,Labor,Internal Labor,75.0
+HR,Shared Services,Inbound Allocations,76.0
+Insurance,Labor,Internal Labor,73.0
+Internal Labor CAPEX,CAPEX,CAPEX,97.0
+IT,Shared Services,Inbound Allocations,81.0
+Labor,CAPEX,CAPEX,174.0
+Lease,Depr & Amort,Amortization,94.0
+Machine/Equipment Rental,Hardware & Software,Hardware,98.0
+Maintenance and Repairs,Hardware & Software,Hardware Maintenance,152.0
+Mechanical Equipment,Hardware & Software,Hardware Maintenance,100.0
+Miscellaneous,Labor,Internal Labor,118.0
+NBE,Shared Services,Inbound Allocations,131.0
+Network Equipment Rental,Hardware & Software,Hardware,42.0
+Non CAPEX Equipment,Hardware & Software,Hardware,45.0
+Non product,Hardware & Software,Hardware Maintenance,101.0
+Office Services,Labor,External Labor,153.0
+Other ( - Tax ),Labor,Internal Labor,138.0
+Other ( + Tax ),Labor,Internal Labor,139.0
+Other Bonuses,Labor,Internal Labor,135.0
+Other Charges,Shared Services,Outbound Allocations,136.0
+Other Inbound,Shared Services,Inbound Allocations,19.0
+Other Labor Expenses,Labor,Internal Labor,191.0
+Other Outbound,Shared Services,Outbound Allocations,20.0
+Outside Services,Labor,External Labor,27.0
+Outsourcing,Labor,External Labor,155.0
+Overtime,Labor,External Labor,32.0
+Payroll Taxes - Extra,Labor,Internal Labor,161.0
+Payroll Taxes - Income Tax,Labor,Internal Labor,157.0
+Payroll Taxes - Non-Domestic,Labor,Internal Labor,159.0
+Payroll Taxes - Other,Labor,Internal Labor,160.0
+Payroll Taxes - Retirement,Labor,Internal Labor,162.0
+Payroll Taxes - Salaries,Labor,Internal Labor,163.0
+Payroll Taxes - Social,Labor,Internal Labor,158.0
+Payroll Taxes - Variable Comp,Labor,Internal Labor,164.0
+PMO,CAPEX,CAPEX,171.0
+Product,Hardware & Software,Hardware Maintenance,102.0
+Professional Services,Labor,External Labor,170.0
+Professional Services,CAPEX,CAPEX,177.0
+Profit Sharing,Labor,Internal Labor,146.0
+Projects - Purchases,CAPEX,CAPEX,175.0
+Projects - Transfers,Shared Services,Outbound Allocations,176.0
+Purchased Software,Hardware & Software,Software,181.0
+Regular Salaries And Wages,Labor,Internal Labor,187.0
+Rented Equipment,Shared Services,Inbound Allocations,190.0
+Retirement Medical,Labor,Internal Labor,193.0
+Retirement Plan Match,Labor,Internal Labor,194.0
+Salary,Labor,Internal Labor,198.0
+Sales Incentive Comp,Labor,Internal Labor,200.0
+Savings Plan,Labor,Internal Labor,204.0
+Servers Rental,Hardware & Software,Hardware,150.0
+Service Contracts,Hardware & Software,Hardware Maintenance,151.0
+Shops,Shared Services,Outbound Allocations,207.0
+Software,Depr & Amort,Amortization,209.0
+Software Maintenance,Hardware & Software,Software Maintenance,210.0
+Speakers,Labor,External Labor,212.0
+Storage Rental,Hardware & Software,Hardware,35.0
+Sub Contract Labor,Labor,External Labor,148.0
+Temporary Transfers,Labor,Internal Labor,225.0
+Temps,Labor,Internal Labor,224.0
+Time Charges - Activities,Shared Services,Outbound Allocations,226.0
+Unscheduled Overtime,Labor,Internal Labor,242.0
+Vacation,Labor,Internal Labor,245.0
+Vacation Accrual,Labor,Internal Labor,244.0
+Variable Salaries And Wages,Labor,Internal Labor,246.0
+Vendor,Hardware & Software,Hardware Maintenance,103.0
+Workers Comp,Labor,Internal Labor,253.0

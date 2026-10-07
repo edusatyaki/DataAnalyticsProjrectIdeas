@@ -1,0 +1,722 @@
+# CPI by category (12 divisions), all India, monthly. Year-on-year inflation from Jan 2026 (first year of the 2024 base has no rate). Source: MoSPI / Office of the Economic Adviser, via IndiaInflation.com. Please credit IndiaInflation.com.
+category,year,month,sector,index_value,inflation_rate
+Clothing and footwear,2025,1,Combined,102.86,
+Clothing and footwear,2025,1,Rural,103.11,
+Clothing and footwear,2025,1,Urban,102.46,
+Clothing and footwear,2025,2,Combined,103.21,
+Clothing and footwear,2025,2,Rural,103.46,
+Clothing and footwear,2025,2,Urban,102.81,
+Clothing and footwear,2025,3,Combined,103.54,
+Clothing and footwear,2025,3,Rural,103.83,
+Clothing and footwear,2025,3,Urban,103.07,
+Clothing and footwear,2025,4,Combined,103.92,
+Clothing and footwear,2025,4,Rural,104.23,
+Clothing and footwear,2025,4,Urban,103.43,
+Clothing and footwear,2025,5,Combined,104.30,
+Clothing and footwear,2025,5,Rural,104.66,
+Clothing and footwear,2025,5,Urban,103.72,
+Clothing and footwear,2025,6,Combined,104.60,
+Clothing and footwear,2025,6,Rural,104.97,
+Clothing and footwear,2025,6,Urban,103.99,
+Clothing and footwear,2025,7,Combined,104.91,
+Clothing and footwear,2025,7,Rural,105.30,
+Clothing and footwear,2025,7,Urban,104.29,
+Clothing and footwear,2025,8,Combined,105.20,
+Clothing and footwear,2025,8,Rural,105.63,
+Clothing and footwear,2025,8,Urban,104.50,
+Clothing and footwear,2025,9,Combined,105.49,
+Clothing and footwear,2025,9,Rural,105.95,
+Clothing and footwear,2025,9,Urban,104.74,
+Clothing and footwear,2025,10,Combined,105.30,
+Clothing and footwear,2025,10,Rural,105.86,
+Clothing and footwear,2025,10,Urban,104.39,
+Clothing and footwear,2025,11,Combined,105.55,
+Clothing and footwear,2025,11,Rural,106.18,
+Clothing and footwear,2025,11,Urban,104.53,
+Clothing and footwear,2025,12,Combined,105.76,
+Clothing and footwear,2025,12,Rural,106.42,
+Clothing and footwear,2025,12,Urban,104.70,
+Clothing and footwear,2026,1,Combined,105.92,2.97
+Clothing and footwear,2026,1,Rural,106.61,3.39
+Clothing and footwear,2026,1,Urban,104.81,2.30
+Clothing and footwear,2026,2,Combined,106.11,2.81
+Clothing and footwear,2026,2,Rural,106.80,3.23
+Clothing and footwear,2026,2,Urban,104.98,2.11
+Clothing and footwear,2026,3,Combined,106.38,2.75
+Clothing and footwear,2026,3,Rural,107.12,3.17
+Clothing and footwear,2026,3,Urban,105.19,2.06
+Clothing and footwear,2026,4,Combined,106.84,2.80
+Clothing and footwear,2026,4,Rural,107.63,3.27
+Clothing and footwear,2026,4,Urban,105.55,2.04
+Clothing and footwear,2026,5,Combined,107.41,2.98
+Clothing and footwear,2026,5,Rural,108.31,3.49
+Clothing and footwear,2026,5,Urban,105.96,2.16
+Clothing and footwear,2026,6,Combined,107.97,3.22
+Clothing and footwear,2026,6,Rural,108.93,3.77
+Clothing and footwear,2026,6,Urban,106.41,2.32
+Clothing and footwear,2026,7,Combined,108.45,3.38
+Clothing and footwear,2026,7,Rural,109.47,3.97
+Clothing and footwear,2026,7,Urban,106.80,2.41
+Clothing and footwear,2026,8,Combined,108.94,3.56
+Clothing and footwear,2026,8,Rural,110.03,4.17
+Clothing and footwear,2026,8,Urban,107.18,2.57
+Education services,2025,1,Combined,101.92,
+Education services,2025,1,Rural,101.64,
+Education services,2025,1,Urban,102.10,
+Education services,2025,2,Combined,101.97,
+Education services,2025,2,Rural,101.73,
+Education services,2025,2,Urban,102.12,
+Education services,2025,3,Combined,102.05,
+Education services,2025,3,Rural,101.79,
+Education services,2025,3,Urban,102.22,
+Education services,2025,4,Combined,102.69,
+Education services,2025,4,Rural,102.30,
+Education services,2025,4,Urban,102.94,
+Education services,2025,5,Combined,103.12,
+Education services,2025,5,Rural,102.71,
+Education services,2025,5,Urban,103.39,
+Education services,2025,6,Combined,104.04,
+Education services,2025,6,Rural,103.42,
+Education services,2025,6,Urban,104.46,
+Education services,2025,7,Combined,104.76,
+Education services,2025,7,Rural,104.22,
+Education services,2025,7,Urban,105.12,
+Education services,2025,8,Combined,104.99,
+Education services,2025,8,Rural,104.48,
+Education services,2025,8,Urban,105.33,
+Education services,2025,9,Combined,104.92,
+Education services,2025,9,Rural,104.56,
+Education services,2025,9,Urban,105.16,
+Education services,2025,10,Combined,104.98,
+Education services,2025,10,Rural,104.58,
+Education services,2025,10,Urban,105.23,
+Education services,2025,11,Combined,105.21,
+Education services,2025,11,Rural,104.61,
+Education services,2025,11,Urban,105.60,
+Education services,2025,12,Combined,105.25,
+Education services,2025,12,Rural,104.64,
+Education services,2025,12,Urban,105.65,
+Education services,2026,1,Combined,105.33,3.35
+Education services,2026,1,Rural,104.77,3.08
+Education services,2026,1,Urban,105.71,3.53
+Education services,2026,2,Combined,105.36,3.33
+Education services,2026,2,Rural,104.79,3.00
+Education services,2026,2,Urban,105.74,3.54
+Education services,2026,3,Combined,105.43,3.31
+Education services,2026,3,Rural,104.79,2.95
+Education services,2026,3,Urban,105.85,3.55
+Education services,2026,4,Combined,105.92,3.15
+Education services,2026,4,Rural,105.29,2.92
+Education services,2026,4,Urban,106.34,3.30
+Education services,2026,5,Combined,106.21,2.99
+Education services,2026,5,Rural,105.55,2.77
+Education services,2026,5,Urban,106.64,3.14
+Education services,2026,6,Combined,107.53,3.35
+Education services,2026,6,Rural,106.16,2.66
+Education services,2026,6,Urban,108.43,3.81
+Education services,2026,7,Combined,108.59,3.66
+Education services,2026,7,Rural,107.25,2.91
+Education services,2026,7,Urban,109.47,4.14
+Education services,2026,8,Combined,108.91,3.73
+Education services,2026,8,Rural,107.49,2.88
+Education services,2026,8,Urban,109.84,4.29
+Food and beverages,2025,1,Combined,101.87,
+Food and beverages,2025,1,Rural,101.90,
+Food and beverages,2025,1,Urban,101.83,
+Food and beverages,2025,2,Combined,100.50,
+Food and beverages,2025,2,Rural,100.42,
+Food and beverages,2025,2,Urban,100.64,
+Food and beverages,2025,3,Combined,100.40,
+Food and beverages,2025,3,Rural,100.19,
+Food and beverages,2025,3,Urban,100.76,
+Food and beverages,2025,4,Combined,100.33,
+Food and beverages,2025,4,Rural,100.06,
+Food and beverages,2025,4,Urban,100.78,
+Food and beverages,2025,5,Combined,100.69,
+Food and beverages,2025,5,Rural,100.36,
+Food and beverages,2025,5,Urban,101.25,
+Food and beverages,2025,6,Combined,101.83,
+Food and beverages,2025,6,Rural,101.42,
+Food and beverages,2025,6,Urban,102.55,
+Food and beverages,2025,7,Combined,103.67,
+Food and beverages,2025,7,Rural,103.26,
+Food and beverages,2025,7,Urban,104.38,
+Food and beverages,2025,8,Combined,104.46,
+Food and beverages,2025,8,Rural,104.29,
+Food and beverages,2025,8,Urban,104.75,
+Food and beverages,2025,9,Combined,104.11,
+Food and beverages,2025,9,Rural,103.85,
+Food and beverages,2025,9,Urban,104.55,
+Food and beverages,2025,10,Combined,103.94,
+Food and beverages,2025,10,Rural,103.80,
+Food and beverages,2025,10,Urban,104.17,
+Food and beverages,2025,11,Combined,104.42,
+Food and beverages,2025,11,Rural,104.33,
+Food and beverages,2025,11,Urban,104.56,
+Food and beverages,2025,12,Combined,104.07,
+Food and beverages,2025,12,Rural,103.88,
+Food and beverages,2025,12,Urban,104.40,
+Food and beverages,2026,1,Combined,104.03,2.11
+Food and beverages,2026,1,Rural,103.89,1.96
+Food and beverages,2026,1,Urban,104.25,2.38
+Food and beverages,2026,2,Combined,103.87,3.35
+Food and beverages,2026,2,Rural,103.80,3.36
+Food and beverages,2026,2,Urban,103.99,3.33
+Food and beverages,2026,3,Combined,104.12,3.71
+Food and beverages,2026,3,Rural,104.00,3.81
+Food and beverages,2026,3,Urban,104.31,3.53
+Food and beverages,2026,4,Combined,104.35,4.01
+Food and beverages,2026,4,Rural,104.16,4.10
+Food and beverages,2026,4,Urban,104.69,3.87
+Food and beverages,2026,5,Combined,105.26,4.55
+Food and beverages,2026,5,Rural,105.02,4.64
+Food and beverages,2026,5,Urban,105.69,4.38
+Food and beverages,2026,6,Combined,106.98,5.05
+Food and beverages,2026,6,Rural,106.70,5.21
+Food and beverages,2026,6,Urban,107.46,4.79
+Food and beverages,2026,7,Combined,109.11,5.24
+Food and beverages,2026,7,Rural,108.98,5.53
+Food and beverages,2026,7,Urban,109.33,4.75
+Food and beverages,2026,8,Combined,110.37,5.66
+Food and beverages,2026,8,Rural,110.41,5.86
+Food and beverages,2026,8,Urban,110.30,5.30
+"Furnishings, household equipment and routine household maintenance",2025,1,Combined,101.50,
+"Furnishings, household equipment and routine household maintenance",2025,1,Rural,101.55,
+"Furnishings, household equipment and routine household maintenance",2025,1,Urban,101.45,
+"Furnishings, household equipment and routine household maintenance",2025,2,Combined,101.68,
+"Furnishings, household equipment and routine household maintenance",2025,2,Rural,101.67,
+"Furnishings, household equipment and routine household maintenance",2025,2,Urban,101.68,
+"Furnishings, household equipment and routine household maintenance",2025,3,Combined,101.90,
+"Furnishings, household equipment and routine household maintenance",2025,3,Rural,101.90,
+"Furnishings, household equipment and routine household maintenance",2025,3,Urban,101.90,
+"Furnishings, household equipment and routine household maintenance",2025,4,Combined,102.13,
+"Furnishings, household equipment and routine household maintenance",2025,4,Rural,102.13,
+"Furnishings, household equipment and routine household maintenance",2025,4,Urban,102.13,
+"Furnishings, household equipment and routine household maintenance",2025,5,Combined,102.35,
+"Furnishings, household equipment and routine household maintenance",2025,5,Rural,102.35,
+"Furnishings, household equipment and routine household maintenance",2025,5,Urban,102.36,
+"Furnishings, household equipment and routine household maintenance",2025,6,Combined,102.55,
+"Furnishings, household equipment and routine household maintenance",2025,6,Rural,102.55,
+"Furnishings, household equipment and routine household maintenance",2025,6,Urban,102.54,
+"Furnishings, household equipment and routine household maintenance",2025,7,Combined,102.74,
+"Furnishings, household equipment and routine household maintenance",2025,7,Rural,102.75,
+"Furnishings, household equipment and routine household maintenance",2025,7,Urban,102.73,
+"Furnishings, household equipment and routine household maintenance",2025,8,Combined,102.89,
+"Furnishings, household equipment and routine household maintenance",2025,8,Rural,102.95,
+"Furnishings, household equipment and routine household maintenance",2025,8,Urban,102.82,
+"Furnishings, household equipment and routine household maintenance",2025,9,Combined,102.95,
+"Furnishings, household equipment and routine household maintenance",2025,9,Rural,102.98,
+"Furnishings, household equipment and routine household maintenance",2025,9,Urban,102.90,
+"Furnishings, household equipment and routine household maintenance",2025,10,Combined,102.67,
+"Furnishings, household equipment and routine household maintenance",2025,10,Rural,102.78,
+"Furnishings, household equipment and routine household maintenance",2025,10,Urban,102.53,
+"Furnishings, household equipment and routine household maintenance",2025,11,Combined,102.74,
+"Furnishings, household equipment and routine household maintenance",2025,11,Rural,102.87,
+"Furnishings, household equipment and routine household maintenance",2025,11,Urban,102.56,
+"Furnishings, household equipment and routine household maintenance",2025,12,Combined,102.83,
+"Furnishings, household equipment and routine household maintenance",2025,12,Rural,102.97,
+"Furnishings, household equipment and routine household maintenance",2025,12,Urban,102.63,
+"Furnishings, household equipment and routine household maintenance",2026,1,Combined,102.97,1.45
+"Furnishings, household equipment and routine household maintenance",2026,1,Rural,103.12,1.55
+"Furnishings, household equipment and routine household maintenance",2026,1,Urban,102.78,1.32
+"Furnishings, household equipment and routine household maintenance",2026,2,Combined,103.06,1.37
+"Furnishings, household equipment and routine household maintenance",2026,2,Rural,103.25,1.55
+"Furnishings, household equipment and routine household maintenance",2026,2,Urban,102.82,1.12
+"Furnishings, household equipment and routine household maintenance",2026,3,Combined,103.32,1.39
+"Furnishings, household equipment and routine household maintenance",2026,3,Rural,103.53,1.60
+"Furnishings, household equipment and routine household maintenance",2026,3,Urban,103.03,1.11
+"Furnishings, household equipment and routine household maintenance",2026,4,Combined,103.78,1.61
+"Furnishings, household equipment and routine household maintenance",2026,4,Rural,104.04,1.87
+"Furnishings, household equipment and routine household maintenance",2026,4,Urban,103.43,1.27
+"Furnishings, household equipment and routine household maintenance",2026,5,Combined,104.29,1.89
+"Furnishings, household equipment and routine household maintenance",2026,5,Rural,104.64,2.24
+"Furnishings, household equipment and routine household maintenance",2026,5,Urban,103.82,1.43
+"Furnishings, household equipment and routine household maintenance",2026,6,Combined,104.80,2.19
+"Furnishings, household equipment and routine household maintenance",2026,6,Rural,105.16,2.54
+"Furnishings, household equipment and routine household maintenance",2026,6,Urban,104.32,1.73
+"Furnishings, household equipment and routine household maintenance",2026,7,Combined,105.21,2.40
+"Furnishings, household equipment and routine household maintenance",2026,7,Rural,105.62,2.79
+"Furnishings, household equipment and routine household maintenance",2026,7,Urban,104.66,1.88
+"Furnishings, household equipment and routine household maintenance",2026,8,Combined,105.65,2.68
+"Furnishings, household equipment and routine household maintenance",2026,8,Rural,106.10,3.06
+"Furnishings, household equipment and routine household maintenance",2026,8,Urban,105.04,2.16
+Health,2025,1,Combined,101.69,
+Health,2025,1,Rural,101.57,
+Health,2025,1,Urban,101.87,
+Health,2025,2,Combined,101.96,
+Health,2025,2,Rural,101.83,
+Health,2025,2,Urban,102.17,
+Health,2025,3,Combined,102.22,
+Health,2025,3,Rural,102.06,
+Health,2025,3,Urban,102.47,
+Health,2025,4,Combined,102.47,
+Health,2025,4,Rural,102.30,
+Health,2025,4,Urban,102.74,
+Health,2025,5,Combined,102.76,
+Health,2025,5,Rural,102.56,
+Health,2025,5,Urban,103.08,
+Health,2025,6,Combined,103.05,
+Health,2025,6,Rural,102.83,
+Health,2025,6,Urban,103.39,
+Health,2025,7,Combined,103.36,
+Health,2025,7,Rural,103.13,
+Health,2025,7,Urban,103.73,
+Health,2025,8,Combined,103.61,
+Health,2025,8,Rural,103.35,
+Health,2025,8,Urban,104.03,
+Health,2025,9,Combined,103.84,
+Health,2025,9,Rural,103.54,
+Health,2025,9,Urban,104.33,
+Health,2025,10,Combined,103.56,
+Health,2025,10,Rural,103.31,
+Health,2025,10,Urban,103.94,
+Health,2025,11,Combined,103.62,
+Health,2025,11,Rural,103.39,
+Health,2025,11,Urban,104.00,
+Health,2025,12,Combined,103.78,
+Health,2025,12,Rural,103.55,
+Health,2025,12,Urban,104.14,
+Health,2026,1,Combined,103.91,2.19
+Health,2026,1,Rural,103.72,2.12
+Health,2026,1,Urban,104.21,2.30
+Health,2026,2,Combined,103.90,1.90
+Health,2026,2,Rural,103.63,1.77
+Health,2026,2,Urban,104.33,2.11
+Health,2026,3,Combined,104.01,1.75
+Health,2026,3,Rural,103.75,1.65
+Health,2026,3,Urban,104.43,1.92
+Health,2026,4,Combined,104.16,1.65
+Health,2026,4,Rural,103.90,1.56
+Health,2026,4,Urban,104.57,1.78
+Health,2026,5,Combined,104.29,1.49
+Health,2026,5,Rural,104.04,1.44
+Health,2026,5,Urban,104.70,1.57
+Health,2026,6,Combined,104.51,1.42
+Health,2026,6,Rural,104.28,1.41
+Health,2026,6,Urban,104.88,1.45
+Health,2026,7,Combined,104.74,1.34
+Health,2026,7,Rural,104.49,1.32
+Health,2026,7,Urban,105.15,1.37
+Health,2026,8,Combined,104.99,1.34
+Health,2026,8,Rural,104.73,1.34
+Health,2026,8,Urban,105.42,1.33
+"Housing, water, electricity, gas and other fuels",2025,1,Combined,100.48,
+"Housing, water, electricity, gas and other fuels",2025,1,Rural,100.77,
+"Housing, water, electricity, gas and other fuels",2025,1,Urban,100.30,
+"Housing, water, electricity, gas and other fuels",2025,2,Combined,100.56,
+"Housing, water, electricity, gas and other fuels",2025,2,Rural,100.84,
+"Housing, water, electricity, gas and other fuels",2025,2,Urban,100.39,
+"Housing, water, electricity, gas and other fuels",2025,3,Combined,100.71,
+"Housing, water, electricity, gas and other fuels",2025,3,Rural,100.92,
+"Housing, water, electricity, gas and other fuels",2025,3,Urban,100.58,
+"Housing, water, electricity, gas and other fuels",2025,4,Combined,101.11,
+"Housing, water, electricity, gas and other fuels",2025,4,Rural,101.43,
+"Housing, water, electricity, gas and other fuels",2025,4,Urban,100.93,
+"Housing, water, electricity, gas and other fuels",2025,5,Combined,101.35,
+"Housing, water, electricity, gas and other fuels",2025,5,Rural,101.60,
+"Housing, water, electricity, gas and other fuels",2025,5,Urban,101.21,
+"Housing, water, electricity, gas and other fuels",2025,6,Combined,101.52,
+"Housing, water, electricity, gas and other fuels",2025,6,Rural,101.78,
+"Housing, water, electricity, gas and other fuels",2025,6,Urban,101.36,
+"Housing, water, electricity, gas and other fuels",2025,7,Combined,101.65,
+"Housing, water, electricity, gas and other fuels",2025,7,Rural,102.09,
+"Housing, water, electricity, gas and other fuels",2025,7,Urban,101.39,
+"Housing, water, electricity, gas and other fuels",2025,8,Combined,101.51,
+"Housing, water, electricity, gas and other fuels",2025,8,Rural,101.63,
+"Housing, water, electricity, gas and other fuels",2025,8,Urban,101.44,
+"Housing, water, electricity, gas and other fuels",2025,9,Combined,101.62,
+"Housing, water, electricity, gas and other fuels",2025,9,Rural,101.78,
+"Housing, water, electricity, gas and other fuels",2025,9,Urban,101.54,
+"Housing, water, electricity, gas and other fuels",2025,10,Combined,101.72,
+"Housing, water, electricity, gas and other fuels",2025,10,Rural,101.83,
+"Housing, water, electricity, gas and other fuels",2025,10,Urban,101.66,
+"Housing, water, electricity, gas and other fuels",2025,11,Combined,101.78,
+"Housing, water, electricity, gas and other fuels",2025,11,Rural,101.91,
+"Housing, water, electricity, gas and other fuels",2025,11,Urban,101.70,
+"Housing, water, electricity, gas and other fuels",2025,12,Combined,101.89,
+"Housing, water, electricity, gas and other fuels",2025,12,Rural,102.05,
+"Housing, water, electricity, gas and other fuels",2025,12,Urban,101.80,
+"Housing, water, electricity, gas and other fuels",2026,1,Combined,101.95,1.47
+"Housing, water, electricity, gas and other fuels",2026,1,Rural,102.11,1.32
+"Housing, water, electricity, gas and other fuels",2026,1,Urban,101.87,1.56
+"Housing, water, electricity, gas and other fuels",2026,2,Combined,102.08,1.52
+"Housing, water, electricity, gas and other fuels",2026,2,Rural,102.19,1.34
+"Housing, water, electricity, gas and other fuels",2026,2,Urban,102.02,1.62
+"Housing, water, electricity, gas and other fuels",2026,3,Combined,102.68,1.96
+"Housing, water, electricity, gas and other fuels",2026,3,Rural,103.07,2.14
+"Housing, water, electricity, gas and other fuels",2026,3,Urban,102.45,1.86
+"Housing, water, electricity, gas and other fuels",2026,4,Combined,102.84,1.71
+"Housing, water, electricity, gas and other fuels",2026,4,Rural,103.23,1.77
+"Housing, water, electricity, gas and other fuels",2026,4,Urban,102.61,1.67
+"Housing, water, electricity, gas and other fuels",2026,5,Combined,103.10,1.73
+"Housing, water, electricity, gas and other fuels",2026,5,Rural,103.59,1.96
+"Housing, water, electricity, gas and other fuels",2026,5,Urban,102.81,1.59
+"Housing, water, electricity, gas and other fuels",2026,6,Combined,103.54,2.00
+"Housing, water, electricity, gas and other fuels",2026,6,Rural,104.24,2.42
+"Housing, water, electricity, gas and other fuels",2026,6,Urban,103.14,1.75
+"Housing, water, electricity, gas and other fuels",2026,7,Combined,103.84,2.16
+"Housing, water, electricity, gas and other fuels",2026,7,Rural,104.60,2.47
+"Housing, water, electricity, gas and other fuels",2026,7,Urban,103.40,1.98
+"Housing, water, electricity, gas and other fuels",2026,8,Combined,104.16,2.61
+"Housing, water, electricity, gas and other fuels",2026,8,Rural,104.96,3.27
+"Housing, water, electricity, gas and other fuels",2026,8,Urban,103.69,2.22
+Information and communication,2025,1,Combined,103.13,
+Information and communication,2025,1,Rural,103.31,
+Information and communication,2025,1,Urban,102.91,
+Information and communication,2025,2,Combined,103.14,
+Information and communication,2025,2,Rural,103.31,
+Information and communication,2025,2,Urban,102.91,
+Information and communication,2025,3,Combined,103.14,
+Information and communication,2025,3,Rural,103.29,
+Information and communication,2025,3,Urban,102.94,
+Information and communication,2025,4,Combined,103.14,
+Information and communication,2025,4,Rural,103.29,
+Information and communication,2025,4,Urban,102.95,
+Information and communication,2025,5,Combined,103.53,
+Information and communication,2025,5,Rural,103.74,
+Information and communication,2025,5,Urban,103.27,
+Information and communication,2025,6,Combined,103.58,
+Information and communication,2025,6,Rural,103.75,
+Information and communication,2025,6,Urban,103.36,
+Information and communication,2025,7,Combined,103.60,
+Information and communication,2025,7,Rural,103.76,
+Information and communication,2025,7,Urban,103.41,
+Information and communication,2025,8,Combined,103.62,
+Information and communication,2025,8,Rural,103.79,
+Information and communication,2025,8,Urban,103.41,
+Information and communication,2025,9,Combined,103.53,
+Information and communication,2025,9,Rural,103.73,
+Information and communication,2025,9,Urban,103.28,
+Information and communication,2025,10,Combined,103.26,
+Information and communication,2025,10,Rural,103.50,
+Information and communication,2025,10,Urban,102.96,
+Information and communication,2025,11,Combined,103.26,
+Information and communication,2025,11,Rural,103.50,
+Information and communication,2025,11,Urban,102.95,
+Information and communication,2025,12,Combined,103.28,
+Information and communication,2025,12,Rural,103.51,
+Information and communication,2025,12,Urban,102.98,
+Information and communication,2026,1,Combined,103.30,0.16
+Information and communication,2026,1,Rural,103.55,0.23
+Information and communication,2026,1,Urban,102.99,0.07
+Information and communication,2026,2,Combined,103.39,0.25
+Information and communication,2026,2,Rural,103.65,0.32
+Information and communication,2026,2,Urban,103.07,0.15
+Information and communication,2026,3,Combined,103.48,0.33
+Information and communication,2026,3,Rural,103.74,0.44
+Information and communication,2026,3,Urban,103.14,0.20
+Information and communication,2026,4,Combined,103.65,0.50
+Information and communication,2026,4,Rural,103.94,0.63
+Information and communication,2026,4,Urban,103.29,0.33
+Information and communication,2026,5,Combined,103.84,0.30
+Information and communication,2026,5,Rural,104.12,0.37
+Information and communication,2026,5,Urban,103.49,0.21
+Information and communication,2026,6,Combined,104.02,0.43
+Information and communication,2026,6,Rural,104.31,0.55
+Information and communication,2026,6,Urban,103.66,0.28
+Information and communication,2026,7,Combined,104.26,0.63
+Information and communication,2026,7,Rural,104.55,0.76
+Information and communication,2026,7,Urban,103.89,0.46
+Information and communication,2026,8,Combined,105.71,2.01
+Information and communication,2026,8,Rural,106.09,2.22
+Information and communication,2026,8,Urban,105.21,1.74
+"Paan, tobacco and intoxicants",2025,1,Combined,101.51,
+"Paan, tobacco and intoxicants",2025,1,Rural,101.64,
+"Paan, tobacco and intoxicants",2025,1,Urban,101.23,
+"Paan, tobacco and intoxicants",2025,2,Combined,101.85,
+"Paan, tobacco and intoxicants",2025,2,Rural,101.90,
+"Paan, tobacco and intoxicants",2025,2,Urban,101.75,
+"Paan, tobacco and intoxicants",2025,3,Combined,102.02,
+"Paan, tobacco and intoxicants",2025,3,Rural,102.07,
+"Paan, tobacco and intoxicants",2025,3,Urban,101.91,
+"Paan, tobacco and intoxicants",2025,4,Combined,102.36,
+"Paan, tobacco and intoxicants",2025,4,Rural,102.45,
+"Paan, tobacco and intoxicants",2025,4,Urban,102.17,
+"Paan, tobacco and intoxicants",2025,5,Combined,102.77,
+"Paan, tobacco and intoxicants",2025,5,Rural,102.90,
+"Paan, tobacco and intoxicants",2025,5,Urban,102.49,
+"Paan, tobacco and intoxicants",2025,6,Combined,102.97,
+"Paan, tobacco and intoxicants",2025,6,Rural,103.12,
+"Paan, tobacco and intoxicants",2025,6,Urban,102.65,
+"Paan, tobacco and intoxicants",2025,7,Combined,103.24,
+"Paan, tobacco and intoxicants",2025,7,Rural,103.37,
+"Paan, tobacco and intoxicants",2025,7,Urban,102.94,
+"Paan, tobacco and intoxicants",2025,8,Combined,103.57,
+"Paan, tobacco and intoxicants",2025,8,Rural,103.67,
+"Paan, tobacco and intoxicants",2025,8,Urban,103.33,
+"Paan, tobacco and intoxicants",2025,9,Combined,103.74,
+"Paan, tobacco and intoxicants",2025,9,Rural,103.84,
+"Paan, tobacco and intoxicants",2025,9,Urban,103.51,
+"Paan, tobacco and intoxicants",2025,10,Combined,103.83,
+"Paan, tobacco and intoxicants",2025,10,Rural,103.91,
+"Paan, tobacco and intoxicants",2025,10,Urban,103.66,
+"Paan, tobacco and intoxicants",2025,11,Combined,103.98,
+"Paan, tobacco and intoxicants",2025,11,Rural,104.08,
+"Paan, tobacco and intoxicants",2025,11,Urban,103.77,
+"Paan, tobacco and intoxicants",2025,12,Combined,104.11,
+"Paan, tobacco and intoxicants",2025,12,Rural,104.20,
+"Paan, tobacco and intoxicants",2025,12,Urban,103.91,
+"Paan, tobacco and intoxicants",2026,1,Combined,104.42,2.86
+"Paan, tobacco and intoxicants",2026,1,Rural,104.42,2.73
+"Paan, tobacco and intoxicants",2026,1,Urban,104.42,3.15
+"Paan, tobacco and intoxicants",2026,2,Combined,105.42,3.50
+"Paan, tobacco and intoxicants",2026,2,Rural,105.44,3.47
+"Paan, tobacco and intoxicants",2026,2,Urban,105.37,3.56
+"Paan, tobacco and intoxicants",2026,3,Combined,106.34,4.24
+"Paan, tobacco and intoxicants",2026,3,Rural,106.31,4.15
+"Paan, tobacco and intoxicants",2026,3,Urban,106.42,4.43
+"Paan, tobacco and intoxicants",2026,4,Combined,107.24,4.77
+"Paan, tobacco and intoxicants",2026,4,Rural,107.21,4.65
+"Paan, tobacco and intoxicants",2026,4,Urban,107.33,5.04
+"Paan, tobacco and intoxicants",2026,5,Combined,107.74,4.83
+"Paan, tobacco and intoxicants",2026,5,Rural,107.64,4.61
+"Paan, tobacco and intoxicants",2026,5,Urban,107.97,5.35
+"Paan, tobacco and intoxicants",2026,6,Combined,107.93,4.82
+"Paan, tobacco and intoxicants",2026,6,Rural,107.86,4.59
+"Paan, tobacco and intoxicants",2026,6,Urban,108.11,5.32
+"Paan, tobacco and intoxicants",2026,7,Combined,108.18,4.79
+"Paan, tobacco and intoxicants",2026,7,Rural,108.07,4.55
+"Paan, tobacco and intoxicants",2026,7,Urban,108.42,5.32
+"Paan, tobacco and intoxicants",2026,8,Combined,108.44,4.71
+"Paan, tobacco and intoxicants",2026,8,Rural,108.33,4.50
+"Paan, tobacco and intoxicants",2026,8,Urban,108.68,5.18
+"Personal care, social protection and miscellaneous goods and services",2025,1,Combined,103.03,
+"Personal care, social protection and miscellaneous goods and services",2025,1,Rural,102.91,
+"Personal care, social protection and miscellaneous goods and services",2025,1,Urban,103.19,
+"Personal care, social protection and miscellaneous goods and services",2025,2,Combined,104.01,
+"Personal care, social protection and miscellaneous goods and services",2025,2,Rural,103.85,
+"Personal care, social protection and miscellaneous goods and services",2025,2,Urban,104.23,
+"Personal care, social protection and miscellaneous goods and services",2025,3,Combined,104.62,
+"Personal care, social protection and miscellaneous goods and services",2025,3,Rural,104.48,
+"Personal care, social protection and miscellaneous goods and services",2025,3,Urban,104.81,
+"Personal care, social protection and miscellaneous goods and services",2025,4,Combined,105.40,
+"Personal care, social protection and miscellaneous goods and services",2025,4,Rural,105.34,
+"Personal care, social protection and miscellaneous goods and services",2025,4,Urban,105.49,
+"Personal care, social protection and miscellaneous goods and services",2025,5,Combined,105.96,
+"Personal care, social protection and miscellaneous goods and services",2025,5,Rural,105.86,
+"Personal care, social protection and miscellaneous goods and services",2025,5,Urban,106.10,
+"Personal care, social protection and miscellaneous goods and services",2025,6,Combined,106.84,
+"Personal care, social protection and miscellaneous goods and services",2025,6,Rural,106.72,
+"Personal care, social protection and miscellaneous goods and services",2025,6,Urban,107.01,
+"Personal care, social protection and miscellaneous goods and services",2025,7,Combined,107.61,
+"Personal care, social protection and miscellaneous goods and services",2025,7,Rural,107.54,
+"Personal care, social protection and miscellaneous goods and services",2025,7,Urban,107.70,
+"Personal care, social protection and miscellaneous goods and services",2025,8,Combined,108.46,
+"Personal care, social protection and miscellaneous goods and services",2025,8,Rural,108.35,
+"Personal care, social protection and miscellaneous goods and services",2025,8,Urban,108.60,
+"Personal care, social protection and miscellaneous goods and services",2025,9,Combined,110.20,
+"Personal care, social protection and miscellaneous goods and services",2025,9,Rural,110.08,
+"Personal care, social protection and miscellaneous goods and services",2025,9,Urban,110.34,
+"Personal care, social protection and miscellaneous goods and services",2025,10,Combined,113.03,
+"Personal care, social protection and miscellaneous goods and services",2025,10,Rural,113.00,
+"Personal care, social protection and miscellaneous goods and services",2025,10,Urban,113.07,
+"Personal care, social protection and miscellaneous goods and services",2025,11,Combined,113.70,
+"Personal care, social protection and miscellaneous goods and services",2025,11,Rural,113.63,
+"Personal care, social protection and miscellaneous goods and services",2025,11,Urban,113.80,
+"Personal care, social protection and miscellaneous goods and services",2025,12,Combined,116.53,
+"Personal care, social protection and miscellaneous goods and services",2025,12,Rural,116.62,
+"Personal care, social protection and miscellaneous goods and services",2025,12,Urban,116.41,
+"Personal care, social protection and miscellaneous goods and services",2026,1,Combined,122.67,19.06
+"Personal care, social protection and miscellaneous goods and services",2026,1,Rural,123.12,19.64
+"Personal care, social protection and miscellaneous goods and services",2026,1,Urban,122.07,18.30
+"Personal care, social protection and miscellaneous goods and services",2026,2,Combined,124.45,19.65
+"Personal care, social protection and miscellaneous goods and services",2026,2,Rural,125.24,20.60
+"Personal care, social protection and miscellaneous goods and services",2026,2,Urban,123.42,18.41
+"Personal care, social protection and miscellaneous goods and services",2026,3,Combined,124.11,18.63
+"Personal care, social protection and miscellaneous goods and services",2026,3,Rural,124.87,19.51
+"Personal care, social protection and miscellaneous goods and services",2026,3,Urban,123.11,17.47
+"Personal care, social protection and miscellaneous goods and services",2026,4,Combined,124.02,17.66
+"Personal care, social protection and miscellaneous goods and services",2026,4,Rural,124.83,18.50
+"Personal care, social protection and miscellaneous goods and services",2026,4,Urban,122.96,16.56
+"Personal care, social protection and miscellaneous goods and services",2026,5,Combined,125.53,18.46
+"Personal care, social protection and miscellaneous goods and services",2026,5,Rural,126.53,19.52
+"Personal care, social protection and miscellaneous goods and services",2026,5,Urban,124.22,17.07
+"Personal care, social protection and miscellaneous goods and services",2026,6,Combined,124.70,16.72
+"Personal care, social protection and miscellaneous goods and services",2026,6,Rural,125.62,17.72
+"Personal care, social protection and miscellaneous goods and services",2026,6,Urban,123.51,15.42
+"Personal care, social protection and miscellaneous goods and services",2026,7,Combined,123.51,14.78
+"Personal care, social protection and miscellaneous goods and services",2026,7,Rural,124.28,15.57
+"Personal care, social protection and miscellaneous goods and services",2026,7,Urban,122.51,13.75
+"Personal care, social protection and miscellaneous goods and services",2026,8,Combined,124.92,15.17
+"Personal care, social protection and miscellaneous goods and services",2026,8,Rural,125.67,15.99
+"Personal care, social protection and miscellaneous goods and services",2026,8,Urban,123.93,14.12
+"Recreation, sport and culture",2025,1,Combined,101.67,
+"Recreation, sport and culture",2025,1,Rural,101.75,
+"Recreation, sport and culture",2025,1,Urban,101.59,
+"Recreation, sport and culture",2025,2,Combined,101.92,
+"Recreation, sport and culture",2025,2,Rural,102.04,
+"Recreation, sport and culture",2025,2,Urban,101.81,
+"Recreation, sport and culture",2025,3,Combined,101.80,
+"Recreation, sport and culture",2025,3,Rural,101.95,
+"Recreation, sport and culture",2025,3,Urban,101.66,
+"Recreation, sport and culture",2025,4,Combined,101.99,
+"Recreation, sport and culture",2025,4,Rural,102.00,
+"Recreation, sport and culture",2025,4,Urban,101.98,
+"Recreation, sport and culture",2025,5,Combined,102.18,
+"Recreation, sport and culture",2025,5,Rural,102.26,
+"Recreation, sport and culture",2025,5,Urban,102.10,
+"Recreation, sport and culture",2025,6,Combined,102.57,
+"Recreation, sport and culture",2025,6,Rural,102.64,
+"Recreation, sport and culture",2025,6,Urban,102.51,
+"Recreation, sport and culture",2025,7,Combined,102.80,
+"Recreation, sport and culture",2025,7,Rural,102.88,
+"Recreation, sport and culture",2025,7,Urban,102.73,
+"Recreation, sport and culture",2025,8,Combined,103.24,
+"Recreation, sport and culture",2025,8,Rural,103.20,
+"Recreation, sport and culture",2025,8,Urban,103.27,
+"Recreation, sport and culture",2025,9,Combined,103.27,
+"Recreation, sport and culture",2025,9,Rural,103.39,
+"Recreation, sport and culture",2025,9,Urban,103.16,
+"Recreation, sport and culture",2025,10,Combined,103.33,
+"Recreation, sport and culture",2025,10,Rural,103.33,
+"Recreation, sport and culture",2025,10,Urban,103.33,
+"Recreation, sport and culture",2025,11,Combined,103.54,
+"Recreation, sport and culture",2025,11,Rural,103.41,
+"Recreation, sport and culture",2025,11,Urban,103.67,
+"Recreation, sport and culture",2025,12,Combined,103.71,
+"Recreation, sport and culture",2025,12,Rural,103.60,
+"Recreation, sport and culture",2025,12,Urban,103.83,
+"Recreation, sport and culture",2026,1,Combined,104.03,2.32
+"Recreation, sport and culture",2026,1,Rural,103.84,2.05
+"Recreation, sport and culture",2026,1,Urban,104.22,2.59
+"Recreation, sport and culture",2026,2,Combined,104.18,2.21
+"Recreation, sport and culture",2026,2,Rural,104.08,2.00
+"Recreation, sport and culture",2026,2,Urban,104.28,2.43
+"Recreation, sport and culture",2026,3,Combined,104.32,2.47
+"Recreation, sport and culture",2026,3,Rural,104.44,2.45
+"Recreation, sport and culture",2026,3,Urban,104.19,2.49
+"Recreation, sport and culture",2026,4,Combined,104.15,2.11
+"Recreation, sport and culture",2026,4,Rural,104.44,2.39
+"Recreation, sport and culture",2026,4,Urban,103.86,1.84
+"Recreation, sport and culture",2026,5,Combined,104.20,1.98
+"Recreation, sport and culture",2026,5,Rural,104.56,2.24
+"Recreation, sport and culture",2026,5,Urban,103.85,1.72
+"Recreation, sport and culture",2026,6,Combined,104.35,1.73
+"Recreation, sport and culture",2026,6,Rural,104.75,2.06
+"Recreation, sport and culture",2026,6,Urban,103.96,1.42
+"Recreation, sport and culture",2026,7,Combined,104.49,1.64
+"Recreation, sport and culture",2026,7,Rural,104.95,2.01
+"Recreation, sport and culture",2026,7,Urban,104.04,1.28
+"Recreation, sport and culture",2026,8,Combined,105.03,1.74
+"Recreation, sport and culture",2026,8,Rural,105.38,2.12
+"Recreation, sport and culture",2026,8,Urban,104.69,1.37
+Restaurants and accommodation services,2025,1,Combined,102.77,
+Restaurants and accommodation services,2025,1,Rural,102.74,
+Restaurants and accommodation services,2025,1,Urban,102.80,
+Restaurants and accommodation services,2025,2,Combined,103.15,
+Restaurants and accommodation services,2025,2,Rural,102.99,
+Restaurants and accommodation services,2025,2,Urban,103.28,
+Restaurants and accommodation services,2025,3,Combined,103.36,
+Restaurants and accommodation services,2025,3,Rural,103.09,
+Restaurants and accommodation services,2025,3,Urban,103.60,
+Restaurants and accommodation services,2025,4,Combined,103.63,
+Restaurants and accommodation services,2025,4,Rural,103.31,
+Restaurants and accommodation services,2025,4,Urban,103.91,
+Restaurants and accommodation services,2025,5,Combined,103.94,
+Restaurants and accommodation services,2025,5,Rural,103.51,
+Restaurants and accommodation services,2025,5,Urban,104.32,
+Restaurants and accommodation services,2025,6,Combined,104.26,
+Restaurants and accommodation services,2025,6,Rural,103.74,
+Restaurants and accommodation services,2025,6,Urban,104.72,
+Restaurants and accommodation services,2025,7,Combined,104.60,
+Restaurants and accommodation services,2025,7,Rural,103.97,
+Restaurants and accommodation services,2025,7,Urban,105.16,
+Restaurants and accommodation services,2025,8,Combined,104.83,
+Restaurants and accommodation services,2025,8,Rural,104.23,
+Restaurants and accommodation services,2025,8,Urban,105.35,
+Restaurants and accommodation services,2025,9,Combined,104.96,
+Restaurants and accommodation services,2025,9,Rural,104.46,
+Restaurants and accommodation services,2025,9,Urban,105.41,
+Restaurants and accommodation services,2025,10,Combined,105.11,
+Restaurants and accommodation services,2025,10,Rural,104.41,
+Restaurants and accommodation services,2025,10,Urban,105.73,
+Restaurants and accommodation services,2025,11,Combined,105.29,
+Restaurants and accommodation services,2025,11,Rural,104.57,
+Restaurants and accommodation services,2025,11,Urban,105.93,
+Restaurants and accommodation services,2025,12,Combined,105.52,
+Restaurants and accommodation services,2025,12,Rural,104.69,
+Restaurants and accommodation services,2025,12,Urban,106.25,
+Restaurants and accommodation services,2026,1,Combined,105.72,2.87
+Restaurants and accommodation services,2026,1,Rural,104.77,1.98
+Restaurants and accommodation services,2026,1,Urban,106.56,3.66
+Restaurants and accommodation services,2026,2,Combined,105.96,2.73
+Restaurants and accommodation services,2026,2,Rural,105.07,2.02
+Restaurants and accommodation services,2026,2,Urban,106.75,3.36
+Restaurants and accommodation services,2026,3,Combined,106.34,2.88
+Restaurants and accommodation services,2026,3,Rural,105.52,2.36
+Restaurants and accommodation services,2026,3,Urban,107.07,3.35
+Restaurants and accommodation services,2026,4,Combined,107.99,4.22
+Restaurants and accommodation services,2026,4,Rural,107.30,3.86
+Restaurants and accommodation services,2026,4,Urban,108.61,4.53
+Restaurants and accommodation services,2026,5,Combined,109.91,5.74
+Restaurants and accommodation services,2026,5,Rural,109.16,5.46
+Restaurants and accommodation services,2026,5,Urban,110.57,5.99
+Restaurants and accommodation services,2026,6,Combined,111.46,6.91
+Restaurants and accommodation services,2026,6,Rural,110.73,6.74
+Restaurants and accommodation services,2026,6,Urban,112.11,7.06
+Restaurants and accommodation services,2026,7,Combined,112.68,7.72
+Restaurants and accommodation services,2026,7,Rural,112.04,7.77
+Restaurants and accommodation services,2026,7,Urban,113.24,7.68
+Restaurants and accommodation services,2026,8,Combined,113.61,8.38
+Restaurants and accommodation services,2026,8,Rural,113.15,8.55
+Restaurants and accommodation services,2026,8,Urban,114.02,8.23
+Transport,2025,1,Combined,100.55,
+Transport,2025,1,Rural,100.55,
+Transport,2025,1,Urban,100.55,
+Transport,2025,2,Combined,100.74,
+Transport,2025,2,Rural,100.75,
+Transport,2025,2,Urban,100.73,
+Transport,2025,3,Combined,100.73,
+Transport,2025,3,Rural,100.75,
+Transport,2025,3,Urban,100.70,
+Transport,2025,4,Combined,100.85,
+Transport,2025,4,Rural,100.87,
+Transport,2025,4,Urban,100.83,
+Transport,2025,5,Combined,100.96,
+Transport,2025,5,Rural,100.98,
+Transport,2025,5,Urban,100.94,
+Transport,2025,6,Combined,101.09,
+Transport,2025,6,Rural,101.12,
+Transport,2025,6,Urban,101.05,
+Transport,2025,7,Combined,101.14,
+Transport,2025,7,Rural,101.19,
+Transport,2025,7,Urban,101.09,
+Transport,2025,8,Combined,101.24,
+Transport,2025,8,Rural,101.29,
+Transport,2025,8,Urban,101.19,
+Transport,2025,9,Combined,101.06,
+Transport,2025,9,Rural,101.13,
+Transport,2025,9,Urban,100.97,
+Transport,2025,10,Combined,100.44,
+Transport,2025,10,Rural,100.50,
+Transport,2025,10,Urban,100.37,
+Transport,2025,11,Combined,100.53,
+Transport,2025,11,Rural,100.59,
+Transport,2025,11,Urban,100.47,
+Transport,2025,12,Combined,100.57,
+Transport,2025,12,Rural,100.59,
+Transport,2025,12,Urban,100.55,
+Transport,2026,1,Combined,100.64,0.09
+Transport,2026,1,Rural,100.67,0.12
+Transport,2026,1,Urban,100.60,0.05
+Transport,2026,2,Combined,100.69,-0.05
+Transport,2026,2,Rural,100.70,-0.05
+Transport,2026,2,Urban,100.67,-0.06
+Transport,2026,3,Combined,100.73,0.00
+Transport,2026,3,Rural,100.76,0.01
+Transport,2026,3,Urban,100.69,-0.01
+Transport,2026,4,Combined,100.84,-0.01
+Transport,2026,4,Rural,100.89,0.02
+Transport,2026,4,Urban,100.79,-0.04
+Transport,2026,5,Combined,102.73,1.75
+Transport,2026,5,Rural,102.80,1.81
+Transport,2026,5,Urban,102.64,1.68
+Transport,2026,6,Combined,105.45,4.32
+Transport,2026,6,Rural,105.55,4.38
+Transport,2026,6,Urban,105.33,4.24
+Transport,2026,7,Combined,105.64,4.44
+Transport,2026,7,Rural,105.73,4.49
+Transport,2026,7,Urban,105.52,4.38
+Transport,2026,8,Combined,105.90,4.60
+Transport,2026,8,Rural,106.05,4.70
+Transport,2026,8,Urban,105.73,4.49
