@@ -14,11 +14,11 @@ Work through the tasks in order and tick each box as you finish. **Check** value
 ### A1. Set up the workbook
 
 - [ ] **A1.1** Create one Google Sheets workbook named `AirQuality_2015_16`.
-- [ ] **A1.2** Import the four files with File → Import → Upload → *Insert new sheet(s)*. Name the tabs `city_day`, `station_day`, `stations`, `city_hour`.
+- [ ] **A1.2** Import the four files with File → Import → Upload → *Insert new sheet(s)*. Name the tabs `city_day`, `station_day`, `stations`, `delhi_hour`.
 - [ ] **A1.3** Freeze the header row on every tab (View → Freeze → 1 row).
 - [ ] **A1.4** Add a `Notes` tab and record the source, the period and today's date.
 
-**Check:** `city_day` has **6,279** data rows, `station_day` 17,182, `stations` 29, `city_hour` 150,634.
+**Check:** `city_day` has **6,279** data rows, `station_day` 17,182, `stations` 29, `delhi_hour` 17,543.
 
 ### A2. Audit the data
 
@@ -66,9 +66,10 @@ Build each one with Insert → Pivot table on a new tab.
 - [ ] **A5.4** Column chart: number of days in each AQI bucket, in order Good → Severe.
 - [ ] **A5.5** Scatter chart: PM10 against AQI, with a trendline and R².
 - [ ] **A5.6** Line chart: Delhi's daily AQI from 15 Oct to 30 Nov 2016.
-- [ ] **A5.7** Line chart: average PM2.5 by hour of day (a pivot on `city_hour`, after adding an `Hour` column with `=HOUR(B2)`).
+- [ ] **A5.7** Line chart: Delhi's average PM2.5 by hour of day (a pivot on `delhi_hour`, after adding an `Hour` column with `=HOUR(B2)`).
+- [ ] **A5.8** Line chart: hourly PM2.5 on Diwali night, 30 Oct 6 pm – 31 Oct 6 am 2016.
 
-**Check:** Delhi's highest AQI is **716** on 7 Nov 2016 · PM2.5 is highest around 10 pm – midnight and lowest around 5 pm.
+**Check:** Delhi's highest AQI is **716** on 7 Nov 2016 · hourly PM2.5 is highest at midnight (152) and lowest at 4–5 pm (93) · Diwali night rises from 172 (6 pm) to **759** (3 am).
 
 ### A6. Test
 

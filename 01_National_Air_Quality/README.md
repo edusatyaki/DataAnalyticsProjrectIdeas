@@ -31,9 +31,9 @@
 | `city_day.csv` | 6,279 | city × day | **Main file.** 10 cities, 1 Jan 2015 – 31 Dec 2016 |
 | `station_day.csv` | 17,182 | station × day | Station-level drill-down (29 stations) |
 | `stations.csv` | 29 | station | Lookup: StationId → name, city, state, status |
-| `city_hour.csv` | 150,634 | city × hour | Hour-of-day patterns |
+| `delhi_hour.csv` | 17,543 | hour (Delhi only) | Hour-of-day patterns and the Diwali-night spike |
 
-All four files fit in one Google Sheets workbook as four tabs (about 2.8 million cells against the 10 million limit), which leaves room for the derived columns in step 8. Import each with File → Import → Upload → *Insert new sheet(s)*.
+All four files load into one Google Sheets workbook as four tabs (about 660,000 cells against the 10 million limit), which leaves room for the derived columns in step 8. Import each with File → Import → Upload → *Insert new sheet(s)*.
 
 **`data/Excel Dataset/`: original full download (2015 – Jul 2020)**
 
@@ -89,7 +89,7 @@ Use the Excel set for extensions such as the 2020 lockdown comparison or a 2015�
 
 **Event analysis**
 - Delhi smog, 1–10 Nov: average PM2.5, PM10 and AQI in 2016 against the same window in 2015, as a % change table plus a daily line chart (Diwali fell on 30 Oct 2016)
-- Hour of day (`city_hour.csv`): average PM2.5 by hour, to show the night-time build-up
+- Hour of day (`delhi_hour.csv`): average PM2.5 by hour, to show the night-time build-up, and the hourly curve on Diwali night (30–31 Oct 2016)
 
 **Dashboard sheet**
 - Slicers: City, Year, Season
@@ -128,7 +128,7 @@ Use the Excel set for extensions such as the 2020 lockdown comparison or a 2015�
 4. **Strong seasonality:** January (290) and February (275) are the worst months, then November (261) and December (258). August (145) is the cleanest. Winter AQI is **about 1.8× monsoon AQI**.
 5. **Drivers:** PM10 (r = 0.88) and PM2.5 (0.76) track AQI most closely. NH₃ (0.16) and Benzene (0.09) barely do. CO's 0.45 falls to 0.22 once Ahmedabad is removed, which is more evidence of its bad CO sensor.
 6. **Delhi's November 2016 smog:** over 1–10 Nov, PM2.5 averaged **446 against 239** on the same days of 2015 (+87%), and AQI averaged 571. Delhi had **85 Severe days in 2016 against 33 in 2015**.
-7. **Night-time build-up:** hourly PM2.5 peaks around 10 pm – midnight (about 105) and is lowest around 5 pm (about 69), as the cooler night air traps pollution near the ground.
+7. **Night-time build-up:** Delhi's hourly PM2.5 peaks around midnight (152) and is lowest at 4–5 pm (93), as the cooler night air traps pollution near the ground. On Diwali night it climbed from **172 at 6 pm to 759 at 3 am**; the 2-year peak was **882** at 9 pm on 6 Nov 2016.
 8. **Data gaps:** PM10 is missing on 73% of days and NH₃ on 60%, and Mumbai cannot be ranked at all, so coverage must be reported next to every city average.
 
 ## 7. Recommendations
