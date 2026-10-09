@@ -27,8 +27,9 @@
 | `city_day.csv` | 6,279 | city × day | **Main file.** 10 cities, 1 Jan 2015 – 31 Dec 2016 |
 | `station_day.csv` | 17,182 | station × day | Station-level drill-down (29 stations) |
 | `stations.csv` | 29 | station | Lookup: StationId → name, city, state, status |
-| `city_hour.csv` | 150,634 | city × hour | Hour-of-day patterns (Power Query or Python) |
-| `station_hour.csv` | 412,141 | station × hour | Fits in Excel, but use Power Query / the Data Model, or Python |
+| `city_hour.csv` | 150,634 | city × hour | Hour-of-day patterns |
+
+**Google Sheets:** all four files fit in one workbook as four tabs (about 2.8 million cells against the 10 million limit), which leaves room for the derived columns in step 8. Import each with File → Import → Upload → *Insert new sheet(s)*.
 
 **Columns (city_day):** `City`, `Date`, 12 pollutants (`PM2.5, PM10, NO, NO2, NOx, NH3, CO, SO2, O3, Benzene, Toluene, Xylene`), `AQI`, `AQI_Bucket` (Good / Satisfactory / Moderate / Poor / Very Poor / Severe).
 
@@ -38,7 +39,7 @@
 
 | # | Step | How (Excel) | What you'll find |
 |---|---|---|---|
-| 1 | Import properly | Data → From Text/CSV → **Transform Data** (Power Query). Set `Date` = Date and pollutants = Decimal Number | Text dates convert cleanly (ISO format) |
+| 1 | Import properly | Excel: Data → From Text/CSV → **Transform Data** (Power Query). Set `Date` = Date and pollutants = Decimal Number. Sheets: File → Import, one tab per file | Text dates convert cleanly (ISO format) |
 | 2 | Check duplicates | Power Query → select City + Date → Keep Duplicates | **0 duplicates** |
 | 3 | Measure missing values | `=COUNTBLANK(C:C)/COUNTA(A:A)` per column, plus a City × Year pivot of `COUNT(AQI)` | PM10 73%, NH3 60%, Xylene 59%, AQI 30% blank. **Mumbai has no AQI at all** (no PM, NO₂, SO₂ or O₃ sensors). Gurugram, Patna and Visakhapatnam start late (AQI from Jan 2016, Oct 2015 and Jul 2016) |
 | 4 | Decide the missing-value rule | **Don't fill pollutants with 0.** Leave them blank (pivot averages ignore blanks). Drop rows with blank AQI only for AQI analysis | Write the rule in an "Assumptions" sheet |
