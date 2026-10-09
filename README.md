@@ -76,7 +76,8 @@ Do them in module order. Each one reuses skills from the one before:
 
 ## Repository notes
 
-- **Compressed files:** `olist_geolocation_dataset.csv.gz` (07) is gzipped to stay under GitHub's 100 MB file limit. pandas reads them directly; on Windows, unzip with 7-Zip for Excel.
+- **Project 01 has two data sets:** `data/Google Sheets Datasheets/` (2015–2016 extract, fits one Sheets workbook; the guide uses this) and `data/Excel Dataset/` (the original 2015–2020 download).
+- **Compressed files:** `station_hour.csv.gz`, `city_hour.csv.gz` (01, Excel Dataset) and `olist_geolocation_dataset.csv.gz` (07) are gzipped to stay under GitHub's 100 MB file limit. pandas reads them directly; on Windows, unzip with 7-Zip for Excel.
 - **Regenerate the profiles:** `python tools/profile_datasets.py` (needs pandas).
 - **Rebuild prepared data:** `09_.../scripts/flatten_pulse.py` (PhonePe JSON → CSV) and `11_.../scripts/build_matches.py` (kabaddiPy JSON → CSV).
 - **Exact bootcamp files:** the source sheet says none of these links is confirmed as the exact Coding Ninjas file. They are public equivalents with the same structure and purpose. Project 05 in particular is a stand-in.

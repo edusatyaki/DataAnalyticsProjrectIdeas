@@ -22,6 +22,10 @@
 
 ## 2. Dataset
 
+`data/` holds two versions of the same CPCB data. **All the numbers in this guide come from the Google Sheets set (2015–2016).**
+
+**`data/Google Sheets Datasheets/`: extracted 2015–2016 set (use this one)**
+
 | File | Rows | Grain | Use it for |
 |---|---|---|---|
 | `city_day.csv` | 6,279 | city × day | **Main file.** 10 cities, 1 Jan 2015 – 31 Dec 2016 |
@@ -29,7 +33,19 @@
 | `stations.csv` | 29 | station | Lookup: StationId → name, city, state, status |
 | `city_hour.csv` | 150,634 | city × hour | Hour-of-day patterns |
 
-**Google Sheets:** all four files fit in one workbook as four tabs (about 2.8 million cells against the 10 million limit), which leaves room for the derived columns in step 8. Import each with File → Import → Upload → *Insert new sheet(s)*.
+All four files fit in one Google Sheets workbook as four tabs (about 2.8 million cells against the 10 million limit), which leaves room for the derived columns in step 8. Import each with File → Import → Upload → *Insert new sheet(s)*.
+
+**`data/Excel Dataset/`: original full download (2015 – Jul 2020)**
+
+| File | Rows | Grain | Notes |
+|---|---|---|---|
+| `city_day.csv` | 29,531 | city × day | 26 cities, 1 Jan 2015 – 1 Jul 2020 |
+| `station_day.csv` | 108,035 | station × day | 110 stations |
+| `stations.csv` | 230 | station | Lookup for all stations |
+| `city_hour.csv.gz` | 707,875 | city × hour | Gzipped. Unzip with 7-Zip on Windows; open through Power Query |
+| `station_hour.csv.gz` | 2.59 M | station × hour | Gzipped. Too big for Excel (> 1,048,576 rows). Python only |
+
+Use the Excel set for extensions such as the 2020 lockdown comparison or a 2015–2020 trend.
 
 **Columns (city_day):** `City`, `Date`, 12 pollutants (`PM2.5, PM10, NO, NO2, NOx, NH3, CO, SO2, O3, Benzene, Toluene, Xylene`), `AQI`, `AQI_Bucket` (Good / Satisfactory / Moderate / Poor / Very Poor / Severe).
 

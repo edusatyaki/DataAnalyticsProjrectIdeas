@@ -1,0 +1,30 @@
+﻿StationId,StationName,City,State,Status
+AP005,"GVM Corporation, Visakhapatnam - APPCB",Visakhapatnam,Andhra Pradesh,Active
+BR007,"IGSC Planetarium Complex, Patna - BSPCB",Patna,Bihar,Active
+DL002,"Anand Vihar, Delhi - DPCC",Delhi,Delhi,Active
+DL007,"CRRI Mathura Road, Delhi - IMD",Delhi,Delhi,Active
+DL008,"DTU, Delhi - CPCB",Delhi,Delhi,Active
+DL011,"East Arjun Nagar, Delhi - CPCB",Delhi,Delhi,Active
+DL013,"IHBAS, Dilshad Garden, Delhi - CPCB",Delhi,Delhi,Active
+DL014,"ITO, Delhi - CPCB",Delhi,Delhi,Active
+DL019,"Mandir Marg, Delhi - DPCC",Delhi,Delhi,Active
+DL021,"NSIT Dwarka, Delhi - CPCB",Delhi,Delhi,Active
+DL028,"Punjabi Bagh, Delhi - DPCC",Delhi,Delhi,Active
+DL031,"R K Puram, Delhi - DPCC",Delhi,Delhi,Active
+DL033,"Shadipur, Delhi - CPCB",Delhi,Delhi,Active
+DL034,"Sirifort, Delhi - CPCB",Delhi,Delhi,Active
+GJ001,"Maninagar, Ahmedabad - GPCB",Ahmedabad,Gujarat,Active
+HR014,"Vikas Sadan, Gurugram - HSPCB",Gurugram,Haryana,Active
+KA003,"BWSSB Kadabesanahalli, Bengaluru - CPCB",Bengaluru,Karnataka,Active
+KA005,"City Railway Station, Bengaluru - KSPCB",Bengaluru,Karnataka,Active
+KA009,"Peenya, Bengaluru - CPCB",Bengaluru,Karnataka,Active
+KA010,"Sanegurava Halli, Bengaluru - KSPCB",Bengaluru,Karnataka,Active
+MH005,"Bandra, Mumbai - MPCB",Mumbai,Maharashtra,Active
+TN001,"Alandur Bus Depot, Chennai - CPCB",Chennai,Tamil Nadu,Active
+TN003,"Manali, Chennai - CPCB",Chennai,Tamil Nadu,Active
+TN004,"Velachery Res. Area, Chennai - CPCB",Chennai,Tamil Nadu,Active
+TG004,"IDA Pashamylaram, Hyderabad - TSPCB",Hyderabad,Telangana,Active
+TG005,"Sanathnagar, Hyderabad - TSPCB",Hyderabad,Telangana,Active
+TG006,"Zoo Park, Hyderabad - TSPCB",Hyderabad,Telangana,Active
+UP012,"Central School, Lucknow - CPCB",Lucknow,Uttar Pradesh,Active
+UP014,"Lalbagh, Lucknow - CPCB",Lucknow,Uttar Pradesh,Active

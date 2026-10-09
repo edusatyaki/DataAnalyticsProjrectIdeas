@@ -20,7 +20,7 @@ def h(t):
 
 # 01 Air quality
 h("01 AIR")
-a = pd.read_csv(R + "01_National_Air_Quality/data/city_day.csv", parse_dates=["Date"])
+a = pd.read_csv(R + "01_National_Air_Quality/data/Google Sheets Datasheets/city_day.csv", parse_dates=["Date"])
 a["Year"] = a.Date.dt.year
 print("avg AQI by city top/bottom:", a.groupby("City").AQI.mean().sort_values().round(0).to_dict())
 print("AQI by year:", a.groupby("Year").AQI.mean().round(0).to_dict())
