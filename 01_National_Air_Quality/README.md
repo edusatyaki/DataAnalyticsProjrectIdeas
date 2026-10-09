@@ -1,6 +1,6 @@
 # 01 · National Air Quality Analysis
 
-**Module:** Excel  **Dataset:** [Air Quality Data in India](https://www.kaggle.com/datasets/rohanrao/air-quality-data-in-india) (CPCB data, compiled on Kaggle), trimmed to **2015–2016**  **Column profile:** [DATA_PROFILE.md](DATA_PROFILE.md)
+**Module:** Excel  **Dataset:** [Air Quality Data in India](https://www.kaggle.com/datasets/rohanrao/air-quality-data-in-india) (CPCB data, compiled on Kaggle), trimmed to **2015–2016**  **Column profile:** [DATA_PROFILE.md](DATA_PROFILE.md)  **Task list:** [TASKS.md](TASKS.md)
 
 ---
 
@@ -142,4 +142,8 @@ Use the Excel set for extensions such as the 2020 lockdown comparison or a 2015�
 
 ## 8. Deliverables
 
-`AirQuality_Analysis.xlsx` with sheets **Raw → Clean → Assumptions → Pivots → Tests → Dashboard → Insights**, plus a one-page PDF summary.
+Follow the step-by-step checklist in [TASKS.md](TASKS.md). Part A is in Google Sheets (2015–2016) and Part B in Excel (2015–2020).
+
+- Google Sheets workbook (Part A), shared as view-only
+- `AirQuality_Analysis.xlsx` (Part B) with sheets **Raw → Clean → Assumptions → Pivots → Tests → Dashboard → Insights**
+- A one-page PDF summary
