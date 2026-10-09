@@ -21,7 +21,7 @@ Every number in the Observations and Testing sections was computed from the file
 
 | # | Project | Module | Dataset | Size | Data notes |
 |---|---|---|---|---|---|
-| 01 | [National Air Quality](01_National_Air_Quality/) | Excel | Air Quality in India 2015–20 (CPCB/Kaggle) | 29.5k city-days (+ hourly) | 16–61% missing per pollutant; 543 AQI > 500, mostly an Ahmedabad CO sensor error |
+| 01 | [National Air Quality](01_National_Air_Quality/) | Excel | Air Quality in India, 2015–16 (CPCB/Kaggle) | 6.3k city-days, 10 cities (+ hourly) | 8–73% missing per pollutant; Mumbai has no AQI; 109 AQI > 500, half from an Ahmedabad CO sensor error |
 | 02 | [US Healthcare](02_US_Healthcare/) | Excel | Healthcare Dataset (Kaggle) | 55.5k admissions | **Synthetic**; 534 duplicates; 108 negative bills |
 | 03 | [India CPI Inflation](03_India_CPI_Inflation/) | Excel | MoSPI CPI via IndiaInflation.com | 2013–Aug 2026 national; 2025+ state/category/item | **Base 2024 = 100**; first line is a comment |
 | 04 | [IT Department Dashboard](04_IT_Department_Dashboard/) | Power BI | Microsoft IT Spend sample (obviEnce) | 166k fact rows, 7 dims | Exported from the hidden Power Pivot model; filter by Scenario |
@@ -76,7 +76,7 @@ Do them in module order. Each one reuses skills from the one before:
 
 ## Repository notes
 
-- **Compressed files:** `station_hour.csv.gz`, `city_hour.csv.gz` (01) and `olist_geolocation_dataset.csv.gz` (07) are gzipped to stay under GitHub's 100 MB file limit. pandas reads them directly; on Windows, unzip with 7-Zip for Excel.
+- **Compressed files:** `olist_geolocation_dataset.csv.gz` (07) is gzipped to stay under GitHub's 100 MB file limit. pandas reads them directly; on Windows, unzip with 7-Zip for Excel.
 - **Regenerate the profiles:** `python tools/profile_datasets.py` (needs pandas).
 - **Rebuild prepared data:** `09_.../scripts/flatten_pulse.py` (PhonePe JSON → CSV) and `11_.../scripts/build_matches.py` (kabaddiPy JSON → CSV).
 - **Exact bootcamp files:** the source sheet says none of these links is confirmed as the exact Coding Ninjas file. They are public equivalents with the same structure and purpose. Project 05 in particular is a stand-in.
